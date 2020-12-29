@@ -1,4 +1,4 @@
-# 50Projects50Days
+# 50-Projects in 50-Days
 
 These are the mini web projects using HTML, CSS & JS done by myself while doing a course in [Udemy](https://www.udemy.com/course/50-projects-50-days/). <br>
 
