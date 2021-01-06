@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f96cc;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1 {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.box {
+  background-color: #1554b3;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 250px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+  transform: translateX(400%); /* no card is shown (odd ones)*/
+  transition: transform 0.4s ease; 
+}
+
+.box:nth-of-type(even) {
+  transform: translateX(-400%); /* all the even cards */
+}
+
+.box.show {
+  transform: translateX(0); /* card is shown */
+}
+
+.box h2 {
+  font-size: 25px;
+}
