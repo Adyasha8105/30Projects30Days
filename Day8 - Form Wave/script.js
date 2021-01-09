@@ -1,8 +1,25 @@
-const labels = document.querySelectorAll('.form-control label')
+const sounds = ['applause', 'boo', 'gasp', 'tada', 'victory', 'wrong']
 
-labels.forEach(label => {
-    label.innerHTML = label.innerText
-        .split('')
-        .map((letter, idx) => `<span style="transition-delay:${idx * 50}ms">${letter}</span>`)
-        .join('')
+sounds.forEach(sound => {
+    const btn = document.createElement('button')
+    btn.classList.add('btn')
+
+    btn.innerText = sound
+
+    btn.addEventListener('click', () => {
+        stopSongs()
+
+        document.getElementById(sound).play()
+    })
+
+    document.getElementById('buttons').appendChild(btn)
 })
+
+function stopSongs() {
+    sounds.forEach(sound => {
+        const song = document.getElementById(sound)
+
+        song.pause()
+        song.currentTime = 0;
+    })
+}
