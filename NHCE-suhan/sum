@@ -1,0 +1,10 @@
+#include<studio.h>
+void main()
+{
+    int a,b,sum;
+    printf("enter the elements");
+    scanf("%d %d",&a,&b);
+    sum=a+b;
+    printf("sum of is =%d",sum);
+    return0;
+}
