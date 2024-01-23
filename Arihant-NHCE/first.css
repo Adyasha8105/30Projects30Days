@@ -1,0 +1,12 @@
+.box{
+    width:400px;
+    height:400px;
+    text-align:center;
+    border:10px solid rgb(23, 29, 14);
+    margin:10px;
+    font-size:30px;
+    background-color:aqua;
+}
+body{
+    background-color: blueviolet;
+}
