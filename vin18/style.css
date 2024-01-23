@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro";
+    scroll-behavior: smooth;
+}
+:root{
+    --bgOrange:#e84949;
+}
+
+
+#wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 1rem;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+.logo{
+    width: 80px;
+}
+.logo-text{
+    margin-left: -1.2rem;
+    font-size: 28px;
+}
+
+.nav-items{
+    display: flex;
+    gap: 2rem;
+    padding: 0 4rem;
+}
+.nav-items div{
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+
+    
+}
+.nav-items div a{
+    color: black;
+    /* transition: all ease-in 1s; */
+}
+a{
+    text-decoration: none;
+}
+.nav-items div:hover{
+    transition: 1s;
+    font-weight: bold;
+}
+
+
+
+
+.hero-section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 5rem;
+    margin: 4rem auto;
+    padding: 0 1rem;
+    padding-bottom: 8rem;
+}
+.faded-text{
+    position: absolute;
+    user-select: none;
+    font-size: 7em; 
+    color: rgb(231,231,231);
+    margin: 1rem 6rem;
+    left: 50;
+
+    bottom: -16%;
+    left: -5%;
+    font-weight: bold;
+    animation:text-S 5s linear 1;
+}
+@keyframes text-S{
+    0%{
+        color: #ffffff17;
+        font-size: 2em;
+    }
+    50%{
+        color: #343d6833;
+        font-size: 14em;
+    }
+    100%{
+        font-size: 7em;
+        color: #0000004c;
+    }
+}
+
+.hero-section-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+.hero-section-heading{
+    font-size: 35px;
+    color: #343d68;
+    font-weight: 500;
+}
+.role{
+    color: #4e45d5;
+    font-weight: 800;
+}
+.hero-section-sub-heading{
+    font-size: 45px;
+    line-height: 45px;
+}
+.hero-section-description{
+    margin-top: 1rem;
+    width: 70%;
+    font-weight: 500;
+}
+.btn-pink{
+    background-color: var(--bgOrange);
+    width:fit-content;
+    color: white;
+    padding: 0.8rem 2.3rem;
+    box-shadow: 5px 5px 7px 0px #0000003f;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 5s;
+    font-weight: 500;
+    border: 3px solid transparent;
+    position: relative;
+    z-index: 1;
+}
+.btn-pink::before{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.8s;
+}
+.btn-pink:hover::before{
+    transform: scaleX(1);
+}
+.btn-pink:hover{
+    border: solid 3px var(--bgOrange);
+    color: black;
+}
+
+
+
+
+
+.hero-section-right{
+    position: relative;
+
+}
+.absolute{
+    position: absolute;
+}
+
+.user-image{
+    padding: 2.5rem;
+    filter: grayscale(1);
+    transition: all 1s;
+    animation: ScaleImage 5s linear infinite;
+}
+.user-image img{
+    z-index: -12;
+}
+@keyframes ScaleImage{
+    0%{
+        filter: grayscale(1);
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+        filter: grayscale(0);
+        box-shadow: 3px 3px 10px black;
+    }
+    100%{
+        transform: scale(1);
+        filter: grayscale(1);
+    }
+} 
+    
+.icon-dots{
+    z-index: 9;
+    bottom: -1rem;
+    right: 0;
+    animation-name: dotsanimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes dotsanimation{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.icon-cube{
+    z-index: 9;
+    top: -0.8em;
+    right: 1em;
+    animation-name: cuberotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes cuberotate{
+    0%{
+        transform: rotateY(0deg) translateY(0px);
+    }
+    50%{
+        transform: rotateY(180deg) translateY(-12px);
+    }
+    100%{
+        transform: rotateY(360deg) translateY(0px);
+    }
+}
+
+.icon-circle{
+    z-index: 9;
+    left: 0;
+    bottom: 0;
+    animation-name: shakeeffect;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes shakeeffect{
+    0%{
+        left: 0;
+        bottom: 0;
+    }
+    50%{
+        left: 5%;
+        bottom: 10%;
+    }
+    100%{
+        left: 0;
+        bottom: 0;
+    }
+}
+
+.icon-zigzag{
+    z-index: 9;
+    top: 1.5em;
+    left: -0.3em;
+
+    animation: zigzagani 5s ease-in infinite;
+}
+@keyframes zigzagani{
+    50%{
+        left: 5%;
+        top:2%;
+    }
+}
+
+.icon-plus{
+    z-index: 9;
+    top: -5.8rem;
+    left: 50%;
+    animation: shakeeffectplus 5s ease-in infinite;
+}
+@keyframes shakeeffectplus{
+    50%{
+        top: 3%;
+        left: 48%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.project-section{
+    background-color: rgb(231,231,231);
+    margin: 4rem 0;
+}
+.page-header{
+    color: var(--bgOrange);
+    font-size: 90px;
+    text-align: center;
+    padding: 30px;
+}
+.project-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 0;
+
+    display: flex;
+    flex-direction: column;
+}
+.project-card{
+    width: 90%;
+    height: 550px;
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.m2LBb1vSRsTsaCQfTT8P5QHaEo&pid=Api&rs=1&c=1&qlt=95&w=153&h=95");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 0px 0px 40px #1f1f1f;
+}
+.project-card::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1f1f1f9a;
+    transform: scale(1);
+    z-index: 0;
+}
+.project-card::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg,#343d68, #343d68be, #343d687c);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.4s;
+    z-index: 1;
+}
+.project-card:hover::before{
+    transform: scaleX(1);
+}
+.project-number{
+    position: absolute;
+    font-size: 200px;
+    font-weight: 600;
+    color: white;
+    z-index: 10;
+
+    right: -40px;
+    top: -45px;
+    display: none;
+}
+.project-card:hover .project-number{
+    display: block;
+}
+
+
+.project-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: wheat;
+    padding: 2em;
+    bottom: 20%;
+    z-index: 5;
+    gap: 1em;
+    transition: all 0.4s;
+}
+.project-skills-container{
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+.project-skill{
+    width: 40px;
+    height: 40px;
+}
+.project-heading{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 3rem;
+}
+.project-subHeading{
+    width: 70%;
+    font-size: 1rem;
+    font-style: italic;
+}
+.btn-grp{
+    display: flex;
+    gap: 0.9rem;
+    align-items: center;
+}
+
+
+.btn-grp{
+    display: flex;
+    gap: 0.9rem;
+    align-items: center;
+}
+.btn-project:hover{
+    border: none;    
+}
+.icon{
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 40px;
+    transition: all 0.8s;
+}
+.icon:hover{
+    color: var(--bgOrange)
+}
+.project-card:hover .project-content{
+    transform: scale(1.08);
+}
+
+
+
+
+
+
+.skills-container{
+    position: relative;
+    display: flex;
+    padding: 5rem;
+    margin: 10rem auto;
+    gap: 30px;
+}
+.skill-container-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.skill-container-right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+
+    position: relative;
+    gap: 2rem;
+    justify-content: center;
+}
+.skill-fade-text{
+    position: absolute;
+    font-size: 15em;
+    font-style: bold;
+    color: rgb(231,231,231);
+    bottom: -34.5%;
+    right: -25%;
+    user-select: none;
+
+    overflow-y: hidden;
+}
+
+.blob-style{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: blobAnimate 3s linear infinite;
+    z-index: -5;
+}
+@keyframes blobAnimate{
+    50%{
+        top: 54%;
+        left: 56%;
+    }
+}
+
+.skills-logo{
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s;
+}
+.skills-logo:hover{
+    transform: scale(1.2);
+}
+.skill-heading{
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--bgOrange);
+    line-height: 50px;
+}
+.caps{
+    font-size: 90px;
+}
+.contactus-form-container{
+    width: 100%;
+    color: rgb(231,231,231);
+}   
