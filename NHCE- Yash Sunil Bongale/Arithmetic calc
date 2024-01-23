@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main()
+{
+    printf("Enter the variable a");
+    scanf("%d",&a);
+    printf("Enter the variable b");
+    scanf("%d",&b);
+    printf
+
+}
