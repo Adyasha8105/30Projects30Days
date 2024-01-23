@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RazorPay</title>
+    <link rel="stylesheet" href=".\Ddrive\programs\MERN_Stack\main.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+  <div class="overflow-x-hidden">
+    <nav class="bg-blue-950">
+      <div class="relative w-[1080px]  mx-auto flex items-center justify-around flex-wrap">
+
+          <a href="/" class="cursor-pointer py-7 pr-7">
+              <img src="https://tse1.mm.bing.net/th?id=OIP.2Y_xC7mK3O1zoGcPL9aD4QHaD4&pid=Api&rs=1&c=1&qlt=95&w=140&h=73" alt="Razor-Pay" width="125px" height="30px">
+          </a>
+
+          <ul class="flex space-x-5">
+              <li class="text-white py-12 hover:text-blue-900 cursor-pointer transition-all duration-300 ease-linear 
+              relative group hidden lg:block">
+          
+              <a href="#">Payments</a>
+              <div class="absolute w-full h-1 bg-blue-300 bottom-0 hidden group-hover:block transition-all duration-200"></div>
+
+          </li>
+
+
+          <li class="text-white py-12 hover:text-blue-900 cursor-pointer transition-all duration-300 ease-linear 
+              relative group hidden lg:block">
+          
+              <a href="#">Banking</a>
+              <div class="absolute w-full h-1 bg-blue-300 bottom-0 hidden group-hover:block transition-all duration-200"></div>
+
+          </li>
+
+          <li class="text-white py-12 hover:text-blue-900 cursor-pointer transition-all duration-300 ease-linear 
+              relative group hidden lg:block">
+          
+              <a href="#">Corporate Card</a>
+              
+
+          </li>
+
+          <li class="text-white py-12 hover:text-blue-900 cursor-pointer transition-all duration-300 ease-linear 
+              relative group hidden lg:block">
+          
+              <a href="#">Payroll</a>
+          
+
+          </li>
+
+          <li class="text-white py-12 hover:text-blue-900 cursor-pointer transition-all duration-300 ease-linear 
+              relative group hidden lg:block">
+          
+              <a href="#">Resources</a>
+              <div class="absolute w-full h-1 bg-blue-300 bottom-0 hidden group-hover:block transition-all duration-200"></div>
+
+          </li>
+
+          <li class="text-white py-12 hover:text-blue-900 cursor-pointer transition-all duration-300 ease-linear 
+              relative group hidden lg:block">
+          
+              <a href="#">support</a>
+              <div class="absolute w-full h-1 bg-blue-300 bottom-0 hidden group-hover:block transition-all duration-200"></div>
+
+          </li>
+              
+          <li class="text-white py-12 hover:text-blue-900 cursor-pointer transition-all duration-300 ease-linear 
+              relative group hidden lg:block">
+          
+              <a href="#">Pricing</a>
+              <div class="absolute w-full h-1 bg-blue-300 bottom-0 hidden group-hover:block transition-all duration-200"></div>
+
+          </li>
+          </ul>
+
+
+          <div class="flex space-x-6">
+              <img src="https://tse1.mm.bing.net/th?id=OIP.YHufaYYtdq8EtHQRPAx_9QHaE8&pid=Api&P=0&h=180" alt="India" width="68px" height="1px" >
+
+              <button class="py-3 px-5 font-mono text-white border-black border-2 rounded-lg">Log in</button>
+
+              <button class="text-blue-300 bg-white border transition-all duration-200 py-3 px-5 font-bold rounded-sm text-sm hover:text-blue-200">Sign in</button>
+          </div>
+
+      </div>
+
+  </nav>
+
+  <section class="relative bg-blue-950">
+
+      <div class="w-10/12 max-w-[1080px] flex flex-col lg:flex-row justify-between items-center mx-auto ">
+          <div class="space-y-8">
+              <h1 class="font-mono font-bold text-[40px] leading-[1.2] text-white">Power your finance, grow your business</h1>
+              <div class="w-6 h-1 bg-green-500"></div>
+              <p class="font-mono text-[18px] leading-7 text-white opacity-70">
+                  Accept payments from customers. Automate payouts to vendors & employees. Never run out of working capital.
+              </p>
+              <button class="bg-blue-500 text-white rounded-md font-sans font-bold hover:bg-blue-700 transition-all duration-700 py-[10px] px-[10px]">Sign Up Now</button>
+          </div>
+
+          <img src="https://razorpay.com/build/browser/static/home-desktop.4a9233fc.jpg" alt="" class="max-w-[680px]">
+
+      </div>
+
+      <div>
+          <img src="svg-path (1).svg" alt="" class="bg-white absolute -z-10 object-fill">
+      </div>
+
+  </section>
+
+  <section class="relative mt-[190px] overflow-hidden">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.6crE6tvxmfwTQKzWd7H6OgHaHa&pid=Api&P=0&h=180" alt="" loading="lazy"
+      width="233" height="167" class="absolute -top-[8rem] left-[2rem] inline-block">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.6crE6tvxmfwTQKzWd7H6OgHaHa&pid=Api&P=0&h=180" alt="" loading="lazy" width="233" height="167" class="absolute top-[3rem] right-[1rem] rotate-45 inline-block">
+
+      <div class="relative w-11/12 max-w-[900px] mx-auto pt-4">
+          <h2 class="font-sans text-center text-2xl leading-[1.2] font-bold">Accept Payments with Razorpay Payment Suite</h2>
+          <div class="w-6 h-1 bg-green-400 mx-auto mt-4 mb-6"></div>
+
+
+          <div class="w-full bg-white flex rounded-md relative pl-10 py-12 min-h-[520px] border">
+              <div class="flex flex-col justify-between w-full">
+                  <h3 class="text-[25px] leading-10 font-bold max-w-[500px]">Supercharge your business with the all powerful <span class="text-blue-500">Payment Gateway</span></h3>
+                  <ul class="flex flex-col space-y-[1rem] my-6">
+                      <li class="flex items-center space-x-2">
+                          <div class="tick-mark"></div>
+                          <span>100+ Payment Methods</span>
+                      </li>
+                      <li class="flex items-center space-x-2">
+                          <div class="tick-mark"></div>
+                          <span>Industry Leading Success Rate</span>
+                      </li>
+                      <li class="flex items-center space-x-2">
+                          <div class="tick-mark"></div>
+                          <span>Superior Checkout Experience</span>
+                      </li>
+                      <li class="flex items-center space-x-2">
+                          <div class="tick-mark"></div>
+                          <span>Easy to Integrate</span>
+                      </li>
+                      <li class="flex items-center space-x-2">
+                          <div class="tick-mark"></div>
+                          <span>Instant Settlements from day 1</span>
+                      </li>
+                      <li class="flex items-center space-x-2">
+                          <div class="tick-mark"></div>
+                          <span>In-depth Reporting and Insights</span>
+                      </li>
+                  </ul>
+
+                  <div class="flex flex-col-reverse md:flex-row items-center space-x-4">
+                      <button class="w-full md:w-fit bg-blue-500 text-white py-[14px] px-[10px] rounded-md font-sans hover:bg-blue-950 translate-all duration-1000">Sign Up Now</button>
+                      <div class="flex items-center cursor-pointer group self-start md:self-center">
+                          <a href="" class="font-bold text-blue-300 group-hover:text-gray-700 transition-all duration-200">Know More</a>
+                          <i></i>
+                      </div>
+                  </div>
+
+              </div>
+
+
+              <img src="https://tse4.mm.bing.net/th?id=OIP.BiJcwOwpe6QuxnWYo5yAKgHaDj&pid=Api&P=0&h=180" alt="" class="
+              absolute right-0 bottom-0 object-cover hidden lg:max-w-[600px] md:max-w-[400px] md:block lg:block">
+          </div>
+      </div>
+  </section>
+
+  <div class="max-w-[900px] mx-auto">
+      <div class="w-full min-h-[15rem] relative cursor-pointer">
+
+          <div class="grid grid-cols-3 w-full gap-4 my-14">
+              <!--box1-->
+              <div class="w-full min-h-[15rem] relative cursor-pointer featureCard2 hover:shadow-2xl">
+              <!-- box icon -->
+              <img src="india-rupee-currency-symbol-svgrepo-com.png" class="bg-white absolute right-3 top-3 w-10 h-10 rounded-full z-[100] featureCardIcon transition-all duration-200">
+              <!-- box shape -->
+              <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#a35252ec] h-[100%] w-[100%] absolute z-[90] featureCardSVG transition-all duration-200" style="stroke-opacity: 0.8">
+                <path d="m 0 6 
+                a 6 6 0 0 1 6 -6 
+                h 250.32501220703125 
+                a 16 16 0 0 1 11 5 
+                l 77 77 
+                a 16 16 0 0 1 5 11 
+                v 126 
+                a 6 6 0 0 1 -6 6 
+                h -337.32501220703125 
+                a 6 6 0 0 1 -6 -6 
+                z" fill="#cccccc"></path>
+              </svg>
+              <!-- box content -->
+              <div class="z-[1000] absolute h-full w-full pl-5 py-6 pr-8 flex flex-col justify-between featureCardBox">
+                <div>
+                  <h3 class="font-mullish font-extrabold text-blue-700 leading-[1.2] text-[1.375rem]">
+                    Current Account
+                  </h3>
+                  <p class="font-mullish text-white opacity-50 mt-6">
+                    Current accounts for fast-growing businesses, supported by the
+                    best-in-class technology
+                  </p>
+                </div>
+                <div class="flex items-center cursor-pointer place-items-end">
+                  <a href="#" class="font-mullish font-bold text-lightBlue500 transition-all duration-200">Know More</a>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right w-5 h-5 text-lightBlue500 transition-all duration-200"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </div>
+              </div>
+              </div>
+              <!--box2-->
+              <div class="w-full min-h-[15rem] relative cursor-pointer featureCard2">
+                <!-- box icon -->
+                <img src="india-rupee-currency-symbol-svgrepo-com.png" class="bg-white absolute right-3 top-3 w-10 h-10 rounded-full z-[100] featureCardIcon transition-all duration-200">
+                <!-- box shape -->
+                <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#a35252ec] h-[100%] w-[100%] absolute z-[90] featureCardSVG transition-all duration-200" style="stroke-opacity: 0.8">
+                  <path d="m 0 6 
+                  a 6 6 0 0 1 6 -6 
+                  h 250.32501220703125 
+                  a 16 16 0 0 1 11 5 
+                  l 77 77 
+                  a 16 16 0 0 1 5 11 
+                  v 126 
+                  a 6 6 0 0 1 -6 6 
+                  h -337.32501220703125 
+                  a 6 6 0 0 1 -6 -6 
+                  z" fill="gray"></path>
+                </svg>
+                <!-- box content -->
+                <div class="z-[1000] absolute h-full w-full pl-5 py-6 pr-8 flex flex-col justify-between featureCardBox">
+                  <div>
+                    <h3 class="font-mullish font-extrabold text-blue-700 leading-[1.2] text-[1.375rem]">
+                      Current Account
+                    </h3>
+                    <p class="font-mullish text-white opacity-50 mt-6">
+                      Current accounts for fast-growing businesses, supported by the
+                      best-in-class technology
+                    </p>
+                  </div>
+                  <div class="flex items-center cursor-pointer place-items-end">
+                    <a href="#" class="font-mullish font-bold text-lightBlue500 transition-all duration-200">Know More</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right w-5 h-5 text-lightBlue500 transition-all duration-200"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                  </div>
+                </div>
+                </div>
+
+
+                <div class="w-full min-h-[15rem] relative cursor-pointer featureCard2">
+                    <!-- box icon -->
+                    <img src="india-rupee-currency-symbol-svgrepo-com.png" class="bg-white absolute right-3 top-3 w-10 h-10 rounded-full z-[100] featureCardIcon transition-all duration-200">
+                    <!-- box shape -->
+                    <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#a35252ec] h-[100%] w-[100%] absolute z-[90] featureCardSVG transition-all duration-200" style="stroke-opacity: 0.8">
+                      <path d="m 0 6 
+                      a 6 6 0 0 1 6 -6 
+                      h 250.32501220703125 
+                      a 16 16 0 0 1 11 5 
+                      l 77 77 
+                      a 16 16 0 0 1 5 11 
+                      v 126 
+                      a 6 6 0 0 1 -6 6 
+                      h -337.32501220703125 
+                      a 6 6 0 0 1 -6 -6 
+                      z" fill="gray"></path>
+                    </svg>
+                    <!-- box content -->
+                    <div class="z-[1000] absolute h-full w-full pl-5 py-6 pr-8 flex flex-col justify-between featureCardBox">
+                      <div>
+                        <h3 class="font-mullish font-extrabold text-blue-700 leading-[1.2] text-[1.375rem]">
+                          Current Account
+                        </h3>
+                        <p class="font-mullish text-white opacity-50 mt-6">
+                          Current accounts for fast-growing businesses, supported by the
+                          best-in-class technology
+                        </p>
+                      </div>
+                      <div class="flex items-center cursor-pointer place-items-end">
+                        <a href="#" class="font-mullish font-bold text-lightBlue500 transition-all duration-200">Know More</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right w-5 h-5 text-lightBlue500 transition-all duration-200"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                      </div>
+                    </div>
+                    </div>
+
+                    <div class="w-full min-h-[15rem] relative cursor-pointer featureCard2">
+                        <!-- box icon -->
+                        <img src="india-rupee-currency-symbol-svgrepo-com.png" class="bg-white absolute right-3 top-3 w-10 h-10 rounded-full z-[100] featureCardIcon transition-all duration-200">
+                        <!-- box shape -->
+                        <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#a35252ec] h-[100%] w-[100%] absolute z-[90] featureCardSVG transition-all duration-200" style="stroke-opacity: 0.8">
+                          <path d="m 0 6 
+                          a 6 6 0 0 1 6 -6 
+                          h 250.32501220703125 
+                          a 16 16 0 0 1 11 5 
+                          l 77 77 
+                          a 16 16 0 0 1 5 11 
+                          v 126 
+                          a 6 6 0 0 1 -6 6 
+                          h -337.32501220703125 
+                          a 6 6 0 0 1 -6 -6 
+                          z" fill="gray"></path>
+                        </svg>
+                        <!-- box content -->
+                        <div class="z-[1000] absolute h-full w-full pl-5 py-6 pr-8 flex flex-col justify-between featureCardBox">
+                          <div>
+                            <h3 class="font-mullish font-extrabold text-blue-700 leading-[1.2] text-[1.375rem]">
+                              Current Account
+                            </h3>
+                            <p class="font-mullish text-white opacity-50 mt-6">
+                              Current accounts for fast-growing businesses, supported by the
+                              best-in-class technology
+                            </p>
+                          </div>
+                          <div class="flex items-center cursor-pointer place-items-end">
+                            <a href="#" class="font-mullish font-bold text-lightBlue500 transition-all duration-200">Know More</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right w-5 h-5 text-lightBlue500 transition-all duration-200"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                          </div>
+                        </div>
+                        </div>
+
+                        <div class="w-full min-h-[15rem] relative cursor-pointer featureCard2">
+                            <!-- box icon -->
+                            <img src="india-rupee-currency-symbol-svgrepo-com.png" class="bg-white absolute right-3 top-3 w-10 h-10 rounded-full z-[100] featureCardIcon transition-all duration-200">
+                            <!-- box shape -->
+                            <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#a35252ec] h-[100%] w-[100%] absolute z-[90] featureCardSVG transition-all duration-200" style="stroke-opacity: 0.8">
+                              <path d="m 0 6 
+                              a 6 6 0 0 1 6 -6 
+                              h 250.32501220703125 
+                              a 16 16 0 0 1 11 5 
+                              l 77 77 
+                              a 16 16 0 0 1 5 11 
+                              v 126 
+                              a 6 6 0 0 1 -6 6 
+                              h -337.32501220703125 
+                              a 6 6 0 0 1 -6 -6 
+                              z" fill="gray"></path>
+                            </svg>
+                            <!-- box content -->
+                            <div class="z-[1000] absolute h-full w-full pl-5 py-6 pr-8 flex flex-col justify-between featureCardBox">
+                              <div>
+                                <h3 class="font-mullish font-extrabold text-blue-700 leading-[1.2] text-[1.375rem]">
+                                  Current Account
+                                </h3>
+                                <p class="font-mullish text-white opacity-50 mt-6">
+                                  Current accounts for fast-growing businesses, supported by the
+                                  best-in-class technology
+                                </p>
+                              </div>
+                              <div class="flex items-center cursor-pointer place-items-end">
+                                <a href="#" class="font-mullish font-bold text-lightBlue500 transition-all duration-200">Know More</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right w-5 h-5 text-lightBlue500 transition-all duration-200"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                              </div>
+                            </div>
+                            </div>
+
+                            <div class="w-full min-h-[15rem] relative cursor-pointer featureCard2">
+                                <!-- box icon -->
+                                <img src="india-rupee-currency-symbol-svgrepo-com.png" class="bg-white absolute right-3 top-3 w-10 h-10 rounded-full z-[100] featureCardIcon transition-all duration-200">
+                                <!-- box shape -->
+                                <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#a35252ec] h-[100%] w-[100%] absolute z-[90] featureCardSVG transition-all duration-200" style="stroke-opacity: 0.8">
+                                  <path d="m 0 6 
+                                  a 6 6 0 0 1 6 -6 
+                                  h 250.32501220703125 
+                                  a 16 16 0 0 1 11 5 
+                                  l 77 77 
+                                  a 16 16 0 0 1 5 11 
+                                  v 126 
+                                  a 6 6 0 0 1 -6 6 
+                                  h -337.32501220703125 
+                                  a 6 6 0 0 1 -6 -6 
+                                  z" fill="gray"></path>
+                                </svg>
+                                <!-- box content -->
+                                <div class="z-[1000] absolute h-full w-full pl-5 py-6 pr-8 flex flex-col justify-between featureCardBox">
+                                  <div>
+                                    <h3 class="font-mullish font-extrabold text-blue-700 leading-[1.2] text-[1.375rem]">
+                                      Current Account
+                                    </h3>
+                                    <p class="font-mullish text-white opacity-50 mt-6">
+                                      Current accounts for fast-growing businesses, supported by the
+                                      best-in-class technology
+                                    </p>
+                                  </div>
+                                  <div class="flex items-center cursor-pointer place-items-end">
+                                    <a href="#" class="font-mullish font-bold text-lightBlue500 transition-all duration-200">Know More</a>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right w-5 h-5 text-lightBlue500 transition-all duration-200"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                                  </div>
+                                </div>
+                                </div>
+        </div>
+
+        
+    </div>
+
+</div>
+<section class="relative bg-[url('idk.svg')] bg-no-repeat bg-cover pb-[800px] mt-14 pt-[10rem]">
+    <div class="w-10/12 max-w-[1080px] pt-4 mx-auto relative">
+
+        <h2 class="text-center text-2xl leading-[1.2] font-bold text-white">Explore RazorpayX powered Business Banking</h2>
+        <div class="w-6 h-1 bg-green-500 mx-auto mt-4 mb-20"></div>
+
+        <div class="w-full min-h-[440px] flex relative">
+            <img src="https://razorpay.com/build/browser/static/x-flame-1.56d9277e.png" alt="" loading="lazy" class="absolute -top-[142px] -left-[140px] w-[200px]">
+            <img src="https://razorpay.com/build/browser/static/x-flame-2.bb3b0a86.png" alt="" loading="lazy" class="absolute w-[200px] top-[150px] -right-[180px]">
+
+
+            <div class="w-full  flex rounded-md relative pl-10 py-12 min-h-[520px] border z-[10] bg-blue-950">
+              <div class="flex flex-col justify-between items-start h-full w-full gap-3">
+                  <h3 class="text-[25px] leading-10 font-bold max-w-[500px] text-white">Manage your company's finances and supercharge your business banking with <img src="https://razorpay.com/build/browser/static/razorpay-x-logo.5cf8015e.svg" alt="" loading="lazy" width="168px" height="32px" class="inline"></h3>
+                  <ul class="flex flex-col space-y-[0.6rem] my-6 text-[#fff]">
+                      <li class="flex items-center space-x-2">
+                          <div class="tick-mark"></div>
+                          <span>100+ Payment Methods</span>
+                      </li>
+                      <li class="flex items-center space-x-2">
+                          <div class="tick-mark"></div>
+                          <span>Industry Leading Success Rate</span>
+                      </li>
+                      <li class="flex items-center space-x-2">
+                          <div class="tick-mark"></div>
+                          <span>Superior Checkout Experience</span>
+                      </li>
+                      <li class="flex items-center space-x-2">
+                          <div class="tick-mark"></div>
+                          <span>Easy to Integrate</span>
+                      </li>
+                    
+                  </ul>
+
+                  <div class="flex flex-row items-center space-x-4">
+                      <button class="relative bg-blue-500 text-white py-[14px] px-[18px] md:pr-[90px] rounded-md font-sans hover:bg-blue-700 translate-all duration-1000 hover:-translate-y-1 hover:scale-110">Sign Up Now
+                        <div class="w-12 h-[60px] bg-green-400 absolute right-5 -bottom-[0.3rem] skew-x-[20deg] 
+                         hover:bg-green-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24" fill="none" class="absolute top-2 left-1 -skew-x-[20deg]">
+                          <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg></div>
+                      </button>
+                      <div class="flex items-center cursor-pointer group">
+                          <a href="" class="font-bold text-blue-300 group-hover:text-gray-700 transition-all duration-200">Know More</a>
+                          <i></i>
+                      </div>
+                  </div>
+
+              </div>
+
+
+              <img src="https://tse4.mm.bing.net/th?id=OIP.BiJcwOwpe6QuxnWYo5yAKgHaDj&pid=Api&P=0&h=180" alt="" class="max-w-[1000px]
+              max-h-[500px] absolute right-0 bottom-2 h-[100%] w-[50%]">
+          </div>
+
+          
+        </div>
+
+        <div class="grid grid-cols-3 w-full gap-4 my-14">
+          <div class="w-full min-h-[15rem] relative cursor-pointer featureCard2 hover:shadow-2xl">
+            <!-- box icon -->
+            <img src="india-rupee-currency-symbol-svgrepo-com.png" class="bg-red-300 p-1 m-1 absolute right-3 top-3 w-10 h-10 rounded-full z-[100] featureCardIcon transition-all duration-200 hover:bg-blue-800">
+            <!-- box shape -->
+            <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#f8f7f7ec] h-[100%] w-[100%] absolute z-[90] featureCardSVG transition-all duration-200 hover:shadow-2xl hover:shadow-black opacity-20 hover:stroke-[#000]" style="stroke-opacity: 0.8">
+              <path d="m 0 6 
+              a 6 6 0 0 1 6 -6 
+              h 250.32501220703125 
+              a 16 16 0 0 1 11 5 
+              l 77 77 
+              a 16 16 0 0 1 5 11 
+              v 126 
+              a 6 6 0 0 1 -6 6 
+              h -337.32501220703125 
+              a 6 6 0 0 1 -6 -6 
+              z" fill="#5100c7"></path>
+            </svg>
+            <!-- box content -->
+            <div class="z-[1000] absolute h-full w-full pl-5 py-6 pr-8 flex flex-col justify-between featureCardBox">
+              <div>
+                <h3 class="font-mullish font-extrabold text-blue-700 leading-[1.2] text-[1.375rem]">
+                  Current Account
+                </h3>
+                <p class="font-mullish text-white opacity-50 mt-6">
+                  Currint accounts for fast-growing businesses, supported by the
+                  best-in-class technology
+                </p>
+              </div>
+              <div class="flex items-center cursor-pointer place-items-end duration-1000 hover:text-red-500">
+                <a href="#" class="font-mullish font-bold text-lightBlue500 transition-all duration-100">Know More</a>
+                <svg xmlns="http://www.w3.org/2000/svg" class="" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right w-5 h-5 text-lightBlue500 transition-all duration-500"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </div>        
+            </div>   
+            </div>
+
+
+
+            <div class="w-full min-h-[15rem] relative cursor-pointer featureCard2 hover:shadow-2xl">
+              <!-- box icon -->
+              <img src="india-rupee-currency-symbol-svgrepo-com.png" class="bg-red-300 p-1 m-1 absolute right-3 top-3 w-10 h-10 rounded-full z-[100] featureCardIcon transition-all duration-200 hover:bg-blue-800">
+              <!-- box shape -->
+              <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#f8f7f7ec] h-[100%] w-[100%] absolute z-[90] featureCardSVG transition-all duration-200 hover:shadow-2xl hover:shadow-black opacity-20 hover:stroke-[#000]" style="stroke-opacity: 0.8">
+                <path d="m 0 6 
+                a 6 6 0 0 1 6 -6 
+                h 250.32501220703125 
+                a 16 16 0 0 1 11 5 
+                l 77 77 
+                a 16 16 0 0 1 5 11 
+                v 126 
+                a 6 6 0 0 1 -6 6 
+                h -337.32501220703125 
+                a 6 6 0 0 1 -6 -6 
+                z" fill="#5100c7"></path>
+              </svg>
+              <!-- box content -->
+              <div class="z-[1000] absolute h-full w-full pl-5 py-6 pr-8 flex flex-col justify-between featureCardBox">
+                <div>
+                  <h3 class="font-mullish font-extrabold text-blue-700 leading-[1.2] text-[1.375rem]">
+                    Current Account
+                  </h3>
+                  <p class="font-mullish text-white opacity-50 mt-6">
+                    Current accounts for fast-growing businesses, supported by the
+                    best-in-class technology
+                  </p>
+                </div>
+                <div class="flex items-center cursor-pointer place-items-end duration-1000 hover:text-red-500">
+                  <a href="#" class="font-mullish font-bold text-lightBlue500 transition-all duration-100">Know More</a>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right w-5 h-5 text-lightBlue500 transition-all duration-500"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </div>                
+              </div>               
+              </div>
+
+
+
+
+              <div class="w-full min-h-[15rem] relative cursor-pointer featureCard2 hover:shadow-2xl">
+                <!-- box icon -->
+                <img src="india-rupee-currency-symbol-svgrepo-com.png" class="bg-red-300 p-1 m-1 absolute right-3 top-3 w-10 h-10 rounded-full z-[100] featureCardIcon transition-all duration-200 hover:bg-blue-800">
+                <!-- box shape -->
+                <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="stroke-1 stroke-[#f8f7f7ec] h-[100%] w-[100%] absolute z-[90] featureCardSVG transition-all duration-200 hover:shadow-2xl hover:shadow-black opacity-20 hover:stroke-[#000]" style="stroke-opacity: 0.8">
+                  <path d="m 0 6 
+                  a 6 6 0 0 1 6 -6 
+                  h 250.32501220703125 
+                  a 16 16 0 0 1 11 5 
+                  l 77 77 
+                  a 16 16 0 0 1 5 11 
+                  v 126 
+                  a 6 6 0 0 1 -6 6 
+                  h -337.32501220703125 
+                  a 6 6 0 0 1 -6 -6 
+                  z" fill="#5100c7"></path>
+                </svg>
+                <!-- box content -->
+                <div class="z-[1000] absolute h-full w-full pl-5 py-6 pr-8 flex flex-col justify-between featureCardBox">
+                  <div>
+                    <h3 class="font-mullish font-extrabold text-blue-700 leading-[1.2] text-[1.375rem]">
+                      Current Account
+                    </h3>
+                    <p class="font-mullish text-white opacity-50 mt-6">
+                      Current accounts for fast-growing businesses, supported by the
+                      best-in-class technology
+                    </p>
+                  </div>
+                  <div class="flex items-center cursor-pointer place-items-end duration-1000 hover:text-red-500">
+                    <a href="#" class="font-mullish font-bold text-lightBlue500 transition-all duration-100">Know More</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right w-5 h-5 text-lightBlue500 transition-all duration-500"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                  </div>                
+                </div>
+                </div>
+        </div>
+        <div class="flex flex-row w-full items-center justify-center border border-slate-700  mb-24 gap-y-6 p-8 relative rounded-md">
+            <p class="text-white text-xl ">Check out the live demo to learn how RazorpayX works. 
+              <span class="font-bold">No sign-up required!</span>
+            </p>
+
+            <button class="relative bg-blue-500 text-white py-[14px] px-[18px] md:pr-[90px] rounded-md font-sans hover:bg-blue-700 translate-all duration-1000 hover:-translate-y-1 hover:scale-110 ml-5">Check Out Demo
+              <div class="w-12 h-[60px] bg-green-400 absolute right-5 -bottom-[0.3rem] skew-x-[20deg] 
+               hover:bg-green-500">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="40px" viewBox="0 0 24 24" fill="none" class="absolute top-2 left-1 -skew-x-[20deg]">
+                <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg></div>
+            </button>
+          </div>
+      </div>
+  </section>
+
+  
+  <section class="bg-white relative">
+    <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.6crE6tvxmfwTQKzWd7H6OgHaHa&pid=Api&rs=1&c=1&qlt=95&w=116&h=116" alt="" loading="lazy" class="absolute w-[233px] left-[300px] -top-[6rem] -z-10">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.6crE6tvxmfwTQKzWd7H6OgHaHa&pid=Api&rs=1&c=1&qlt=95&w=116&h=116" alt="" loading="lazy" class="absolute w-[233px] -right-[3.5rem] -top-[6rem] -z-10">
+
+      <div class="w-full grid grid-cols-3 gap-y-10 gap-x-4 relative z-[10]">
+        <div class="relative flex items-center">
+          <h2 class="text-blue-950 font-extrabold text-4xl leading-[3.375rem]">New in the 
+            <span class="text-blue-300 mr-10">
+              Razorpay
+            </span>
+            Product Suite
+          </h2>
+        </div>
+
+
+        <div class="p-10 bg-[url('https://razorpay.com/build/browser/static/instant-settlements-bg.b4569475.svg')] w-full max-h-[300px] cursor-pointer bg-no-repeat hover:scale-105 transition-all duration-200 hover:bg-[url('idk1.svg')]">
+          <svg width="50px" height="50px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="34.816"><path d="M732.1 399.3C534.6 356 696.5 82.1 425.9 104.8s-527.2 645.8-46.8 791.7 728-415 353-497.2z" fill="#464BD8"></path><path d="M695.5 779.5c-5.7 0-11.3-0.8-16.9-2.3l-402-112.4c-16.1-4.5-29.4-15-37.6-29.5a62 62 0 0 1-5.7-47.5l65-232.6a62.64 62.64 0 0 1 60.1-45.4c5.7 0 11.3 0.8 16.9 2.3L508 349.2c0.3 0.1 0.6 0.1 1 0.1 1.2 0 2.3-0.6 2.9-1.6l21.3-31.5c7.5-11.1 20-17.7 33.4-17.7 3.7 0 7.4 0.5 11 1.5L695 332.9a40.03 40.03 0 0 1 29.5 36.8l1.9 37.6c0.1 1.6 1.1 2.9 2.6 3.3l48.2 13.5c16.1 4.5 29.4 15 37.6 29.5a62 62 0 0 1 5.7 47.5l-65 232.6c-7.4 27-32.1 45.8-60 45.8z" fill="#FFFFFF"></path><path d="M566.5 306c3 0 6 0.4 9 1.3L693 340.1a32.87 32.87 0 0 1 24.1 30l1.9 37.7a11 11 0 0 0 8 10.1l48.2 13.5a55.03 55.03 0 0 1 38.2 67.8l-65.1 232.6a55.06 55.06 0 0 1-53 40.2c-4.9 0-9.9-0.7-14.9-2l-402-112.4a55.03 55.03 0 0 1-38.2-67.8l65.1-232.6c6.9-24.2 28.9-40 52.9-40 4.9 0 9.9 0.7 14.9 2l132.7 37.1c1 0.3 2 0.4 3 0.4 3.6 0 7.1-1.8 9.1-4.9l21.3-31.4c6.3-9.2 16.5-14.4 27.3-14.4m0-14.9c-15.9 0-30.6 7.8-39.5 21l-19.7 29.2L377.4 305c-6.2-1.7-12.5-2.6-18.9-2.6a70.4 70.4 0 0 0-41.8 13.9c-12.4 9.2-21.2 22-25.5 36.9v0.1l-65.1 232.6c-10.4 37.1 11.4 75.8 48.5 86.2l402 112.4c6.2 1.7 12.5 2.6 18.9 2.6 31.2 0 58.9-21 67.3-51.1l65-232.6c5-18 2.8-36.9-6.4-53.1-9.2-16.3-24.1-28-42.1-33l-45.5-12.7-1.8-34.9a47.6 47.6 0 0 0-35-43.6l-117.5-32.9a39.3 39.3 0 0 0-13-2.1z" fill="#151B28"></path><path d="M686 365.2c2.9 0.8 4.9 3.3 5 6.3l1.9 37.6c0.4 16.2 11.3 30.2 26.9 34.6l48.2 13.5a28.98 28.98 0 0 1 20.1 35.7l-65 232.6c-4.6 15-20.4 23.6-35.5 19.3l-402-112.4a28.98 28.98 0 0 1-20.1-35.7l65.1-232.6a28.87 28.87 0 0 1 35.6-19.8l132.7 37.1c15.6 4.3 32.2-2 40.9-15.6l21-30.7c1.6-2.5 4.7-3.6 7.5-2.8L686 365.2" fill="#2AEFC8"></path><path d="M597.6 454.5c56.2 15.7 89 74 73.3 130.2-15.7 56.2-74 89-130.2 73.3-56.2-15.7-89-74-73.3-130.2 15.9-56.1 74-88.8 130.2-73.3m7-25.1c-70.1-19.6-142.8 21.3-162.3 91.4-19.6 70.1 21.3 142.8 91.4 162.3 70.1 19.6 142.8-21.3 162.3-91.4 19.5-70-21.4-142.6-91.4-162.3z m0 0" fill=""></path><path d="M580.1 513.2a50.39 50.39 0 0 1-27 97.1 50.44 50.44 0 0 1-35.2-61.9 50.5 50.5 0 0 1 62.2-35.2" fill="#514DDF"></path><path d="M568.1 635.9c-28.9 0-55.7-15.6-70-41.4a79.69 79.69 0 0 1 7.6-88.8c20.4-25.4 53.8-36 85-26.8 42 12.3 66.5 56.6 54.6 98.7-8.9 31.4-35.5 54-67.9 57.8-3.1 0.3-6.2 0.5-9.3 0.5z m0-136c-16.7 0-32.7 7.5-43.5 21a55.6 55.6 0 0 0-5.3 61.9c11 19.9 32.7 31.1 55.3 28.5a55.45 55.45 0 0 0 47.3-40.3c8.3-29.4-8.8-60.2-38-68.8-5.2-1.6-10.5-2.3-15.8-2.3zM441.2 310.6L391 296.5c-6.9-1.9-11-9.1-9-16.1 1.9-6.9 9.1-11 16.1-9l50.2 14.1c6.9 1.9 11 9.1 9 16.1-1.9 6.9-9.1 10.9-16.1 9z m0 0M413.5 409.8l-50.2-14.1c-6.9-1.9-11-9.1-9-16.1 1.9-6.9 9.1-11 16.1-9.1l50.2 14.1c6.9 1.9 11 9.1 9 16.1-2 7-9.2 11.1-16.1 9.1z m0 0" fill=""></path></g><g id="SVGRepo_iconCarrier"><path d="M732.1 399.3C534.6 356 696.5 82.1 425.9 104.8s-527.2 645.8-46.8 791.7 728-415 353-497.2z" fill="#464BD8"></path><path d="M695.5 779.5c-5.7 0-11.3-0.8-16.9-2.3l-402-112.4c-16.1-4.5-29.4-15-37.6-29.5a62 62 0 0 1-5.7-47.5l65-232.6a62.64 62.64 0 0 1 60.1-45.4c5.7 0 11.3 0.8 16.9 2.3L508 349.2c0.3 0.1 0.6 0.1 1 0.1 1.2 0 2.3-0.6 2.9-1.6l21.3-31.5c7.5-11.1 20-17.7 33.4-17.7 3.7 0 7.4 0.5 11 1.5L695 332.9a40.03 40.03 0 0 1 29.5 36.8l1.9 37.6c0.1 1.6 1.1 2.9 2.6 3.3l48.2 13.5c16.1 4.5 29.4 15 37.6 29.5a62 62 0 0 1 5.7 47.5l-65 232.6c-7.4 27-32.1 45.8-60 45.8z" fill="#FFFFFF"></path><path d="M566.5 306c3 0 6 0.4 9 1.3L693 340.1a32.87 32.87 0 0 1 24.1 30l1.9 37.7a11 11 0 0 0 8 10.1l48.2 13.5a55.03 55.03 0 0 1 38.2 67.8l-65.1 232.6a55.06 55.06 0 0 1-53 40.2c-4.9 0-9.9-0.7-14.9-2l-402-112.4a55.03 55.03 0 0 1-38.2-67.8l65.1-232.6c6.9-24.2 28.9-40 52.9-40 4.9 0 9.9 0.7 14.9 2l132.7 37.1c1 0.3 2 0.4 3 0.4 3.6 0 7.1-1.8 9.1-4.9l21.3-31.4c6.3-9.2 16.5-14.4 27.3-14.4m0-14.9c-15.9 0-30.6 7.8-39.5 21l-19.7 29.2L377.4 305c-6.2-1.7-12.5-2.6-18.9-2.6a70.4 70.4 0 0 0-41.8 13.9c-12.4 9.2-21.2 22-25.5 36.9v0.1l-65.1 232.6c-10.4 37.1 11.4 75.8 48.5 86.2l402 112.4c6.2 1.7 12.5 2.6 18.9 2.6 31.2 0 58.9-21 67.3-51.1l65-232.6c5-18 2.8-36.9-6.4-53.1-9.2-16.3-24.1-28-42.1-33l-45.5-12.7-1.8-34.9a47.6 47.6 0 0 0-35-43.6l-117.5-32.9a39.3 39.3 0 0 0-13-2.1z" fill="#151B28"></path><path d="M686 365.2c2.9 0.8 4.9 3.3 5 6.3l1.9 37.6c0.4 16.2 11.3 30.2 26.9 34.6l48.2 13.5a28.98 28.98 0 0 1 20.1 35.7l-65 232.6c-4.6 15-20.4 23.6-35.5 19.3l-402-112.4a28.98 28.98 0 0 1-20.1-35.7l65.1-232.6a28.87 28.87 0 0 1 35.6-19.8l132.7 37.1c15.6 4.3 32.2-2 40.9-15.6l21-30.7c1.6-2.5 4.7-3.6 7.5-2.8L686 365.2" fill="#2AEFC8"></path><path d="M597.6 454.5c56.2 15.7 89 74 73.3 130.2-15.7 56.2-74 89-130.2 73.3-56.2-15.7-89-74-73.3-130.2 15.9-56.1 74-88.8 130.2-73.3m7-25.1c-70.1-19.6-142.8 21.3-162.3 91.4-19.6 70.1 21.3 142.8 91.4 162.3 70.1 19.6 142.8-21.3 162.3-91.4 19.5-70-21.4-142.6-91.4-162.3z m0 0" fill=""></path><path d="M580.1 513.2a50.39 50.39 0 0 1-27 97.1 50.44 50.44 0 0 1-35.2-61.9 50.5 50.5 0 0 1 62.2-35.2" fill="#514DDF"></path><path d="M568.1 635.9c-28.9 0-55.7-15.6-70-41.4a79.69 79.69 0 0 1 7.6-88.8c20.4-25.4 53.8-36 85-26.8 42 12.3 66.5 56.6 54.6 98.7-8.9 31.4-35.5 54-67.9 57.8-3.1 0.3-6.2 0.5-9.3 0.5z m0-136c-16.7 0-32.7 7.5-43.5 21a55.6 55.6 0 0 0-5.3 61.9c11 19.9 32.7 31.1 55.3 28.5a55.45 55.45 0 0 0 47.3-40.3c8.3-29.4-8.8-60.2-38-68.8-5.2-1.6-10.5-2.3-15.8-2.3zM441.2 310.6L391 296.5c-6.9-1.9-11-9.1-9-16.1 1.9-6.9 9.1-11 16.1-9l50.2 14.1c6.9 1.9 11 9.1 9 16.1-1.9 6.9-9.1 10.9-16.1 9z m0 0M413.5 409.8l-50.2-14.1c-6.9-1.9-11-9.1-9-16.1 1.9-6.9 9.1-11 16.1-9.1l50.2 14.1c6.9 1.9 11 9.1 9 16.1-2 7-9.2 11.1-16.1 9.1z m0 0" fill=""></path></g></svg>
+          <h3 class="text-lg font-bold pt-4">Instant Settlements</h3>
+          <p class="py-3 text-gray-500 leading-normal">Settle your customers payments within 10seconds as soon your account is activated, even during holidays</p>
+          <div class="flex items-center cursor-pointer place-items-end duration-1000 hover:text-red-500">
+            <a href="#" class="font-mullish font-bold text-lightBlue500 transition-all duration-100">Know More</a>
+            <svg xmlns="http://www.w3.org/2000/svg" class="" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right w-5 h-5 text-lightBlue500 transition-all duration-500"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </div>  
+        </div>
+
+
+        <div class="p-10 bg-[url('https://razorpay.com/build/browser/static/instant-settlements-bg.b4569475.svg')] w-full max-h-[300px] cursor-pointer bg-no-repeat hover:scale-105 transition-all duration-200 hover:bg-[url('idk1.svg')]">
+          <svg width="50px" height="50px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="34.816"><path d="M732.1 399.3C534.6 356 696.5 82.1 425.9 104.8s-527.2 645.8-46.8 791.7 728-415 353-497.2z" fill="#464BD8"></path><path d="M695.5 779.5c-5.7 0-11.3-0.8-16.9-2.3l-402-112.4c-16.1-4.5-29.4-15-37.6-29.5a62 62 0 0 1-5.7-47.5l65-232.6a62.64 62.64 0 0 1 60.1-45.4c5.7 0 11.3 0.8 16.9 2.3L508 349.2c0.3 0.1 0.6 0.1 1 0.1 1.2 0 2.3-0.6 2.9-1.6l21.3-31.5c7.5-11.1 20-17.7 33.4-17.7 3.7 0 7.4 0.5 11 1.5L695 332.9a40.03 40.03 0 0 1 29.5 36.8l1.9 37.6c0.1 1.6 1.1 2.9 2.6 3.3l48.2 13.5c16.1 4.5 29.4 15 37.6 29.5a62 62 0 0 1 5.7 47.5l-65 232.6c-7.4 27-32.1 45.8-60 45.8z" fill="#FFFFFF"></path><path d="M566.5 306c3 0 6 0.4 9 1.3L693 340.1a32.87 32.87 0 0 1 24.1 30l1.9 37.7a11 11 0 0 0 8 10.1l48.2 13.5a55.03 55.03 0 0 1 38.2 67.8l-65.1 232.6a55.06 55.06 0 0 1-53 40.2c-4.9 0-9.9-0.7-14.9-2l-402-112.4a55.03 55.03 0 0 1-38.2-67.8l65.1-232.6c6.9-24.2 28.9-40 52.9-40 4.9 0 9.9 0.7 14.9 2l132.7 37.1c1 0.3 2 0.4 3 0.4 3.6 0 7.1-1.8 9.1-4.9l21.3-31.4c6.3-9.2 16.5-14.4 27.3-14.4m0-14.9c-15.9 0-30.6 7.8-39.5 21l-19.7 29.2L377.4 305c-6.2-1.7-12.5-2.6-18.9-2.6a70.4 70.4 0 0 0-41.8 13.9c-12.4 9.2-21.2 22-25.5 36.9v0.1l-65.1 232.6c-10.4 37.1 11.4 75.8 48.5 86.2l402 112.4c6.2 1.7 12.5 2.6 18.9 2.6 31.2 0 58.9-21 67.3-51.1l65-232.6c5-18 2.8-36.9-6.4-53.1-9.2-16.3-24.1-28-42.1-33l-45.5-12.7-1.8-34.9a47.6 47.6 0 0 0-35-43.6l-117.5-32.9a39.3 39.3 0 0 0-13-2.1z" fill="#151B28"></path><path d="M686 365.2c2.9 0.8 4.9 3.3 5 6.3l1.9 37.6c0.4 16.2 11.3 30.2 26.9 34.6l48.2 13.5a28.98 28.98 0 0 1 20.1 35.7l-65 232.6c-4.6 15-20.4 23.6-35.5 19.3l-402-112.4a28.98 28.98 0 0 1-20.1-35.7l65.1-232.6a28.87 28.87 0 0 1 35.6-19.8l132.7 37.1c15.6 4.3 32.2-2 40.9-15.6l21-30.7c1.6-2.5 4.7-3.6 7.5-2.8L686 365.2" fill="#2AEFC8"></path><path d="M597.6 454.5c56.2 15.7 89 74 73.3 130.2-15.7 56.2-74 89-130.2 73.3-56.2-15.7-89-74-73.3-130.2 15.9-56.1 74-88.8 130.2-73.3m7-25.1c-70.1-19.6-142.8 21.3-162.3 91.4-19.6 70.1 21.3 142.8 91.4 162.3 70.1 19.6 142.8-21.3 162.3-91.4 19.5-70-21.4-142.6-91.4-162.3z m0 0" fill=""></path><path d="M580.1 513.2a50.39 50.39 0 0 1-27 97.1 50.44 50.44 0 0 1-35.2-61.9 50.5 50.5 0 0 1 62.2-35.2" fill="#514DDF"></path><path d="M568.1 635.9c-28.9 0-55.7-15.6-70-41.4a79.69 79.69 0 0 1 7.6-88.8c20.4-25.4 53.8-36 85-26.8 42 12.3 66.5 56.6 54.6 98.7-8.9 31.4-35.5 54-67.9 57.8-3.1 0.3-6.2 0.5-9.3 0.5z m0-136c-16.7 0-32.7 7.5-43.5 21a55.6 55.6 0 0 0-5.3 61.9c11 19.9 32.7 31.1 55.3 28.5a55.45 55.45 0 0 0 47.3-40.3c8.3-29.4-8.8-60.2-38-68.8-5.2-1.6-10.5-2.3-15.8-2.3zM441.2 310.6L391 296.5c-6.9-1.9-11-9.1-9-16.1 1.9-6.9 9.1-11 16.1-9l50.2 14.1c6.9 1.9 11 9.1 9 16.1-1.9 6.9-9.1 10.9-16.1 9z m0 0M413.5 409.8l-50.2-14.1c-6.9-1.9-11-9.1-9-16.1 1.9-6.9 9.1-11 16.1-9.1l50.2 14.1c6.9 1.9 11 9.1 9 16.1-2 7-9.2 11.1-16.1 9.1z m0 0" fill=""></path></g><g id="SVGRepo_iconCarrier"><path d="M732.1 399.3C534.6 356 696.5 82.1 425.9 104.8s-527.2 645.8-46.8 791.7 728-415 353-497.2z" fill="#464BD8"></path><path d="M695.5 779.5c-5.7 0-11.3-0.8-16.9-2.3l-402-112.4c-16.1-4.5-29.4-15-37.6-29.5a62 62 0 0 1-5.7-47.5l65-232.6a62.64 62.64 0 0 1 60.1-45.4c5.7 0 11.3 0.8 16.9 2.3L508 349.2c0.3 0.1 0.6 0.1 1 0.1 1.2 0 2.3-0.6 2.9-1.6l21.3-31.5c7.5-11.1 20-17.7 33.4-17.7 3.7 0 7.4 0.5 11 1.5L695 332.9a40.03 40.03 0 0 1 29.5 36.8l1.9 37.6c0.1 1.6 1.1 2.9 2.6 3.3l48.2 13.5c16.1 4.5 29.4 15 37.6 29.5a62 62 0 0 1 5.7 47.5l-65 232.6c-7.4 27-32.1 45.8-60 45.8z" fill="#FFFFFF"></path><path d="M566.5 306c3 0 6 0.4 9 1.3L693 340.1a32.87 32.87 0 0 1 24.1 30l1.9 37.7a11 11 0 0 0 8 10.1l48.2 13.5a55.03 55.03 0 0 1 38.2 67.8l-65.1 232.6a55.06 55.06 0 0 1-53 40.2c-4.9 0-9.9-0.7-14.9-2l-402-112.4a55.03 55.03 0 0 1-38.2-67.8l65.1-232.6c6.9-24.2 28.9-40 52.9-40 4.9 0 9.9 0.7 14.9 2l132.7 37.1c1 0.3 2 0.4 3 0.4 3.6 0 7.1-1.8 9.1-4.9l21.3-31.4c6.3-9.2 16.5-14.4 27.3-14.4m0-14.9c-15.9 0-30.6 7.8-39.5 21l-19.7 29.2L377.4 305c-6.2-1.7-12.5-2.6-18.9-2.6a70.4 70.4 0 0 0-41.8 13.9c-12.4 9.2-21.2 22-25.5 36.9v0.1l-65.1 232.6c-10.4 37.1 11.4 75.8 48.5 86.2l402 112.4c6.2 1.7 12.5 2.6 18.9 2.6 31.2 0 58.9-21 67.3-51.1l65-232.6c5-18 2.8-36.9-6.4-53.1-9.2-16.3-24.1-28-42.1-33l-45.5-12.7-1.8-34.9a47.6 47.6 0 0 0-35-43.6l-117.5-32.9a39.3 39.3 0 0 0-13-2.1z" fill="#151B28"></path><path d="M686 365.2c2.9 0.8 4.9 3.3 5 6.3l1.9 37.6c0.4 16.2 11.3 30.2 26.9 34.6l48.2 13.5a28.98 28.98 0 0 1 20.1 35.7l-65 232.6c-4.6 15-20.4 23.6-35.5 19.3l-402-112.4a28.98 28.98 0 0 1-20.1-35.7l65.1-232.6a28.87 28.87 0 0 1 35.6-19.8l132.7 37.1c15.6 4.3 32.2-2 40.9-15.6l21-30.7c1.6-2.5 4.7-3.6 7.5-2.8L686 365.2" fill="#2AEFC8"></path><path d="M597.6 454.5c56.2 15.7 89 74 73.3 130.2-15.7 56.2-74 89-130.2 73.3-56.2-15.7-89-74-73.3-130.2 15.9-56.1 74-88.8 130.2-73.3m7-25.1c-70.1-19.6-142.8 21.3-162.3 91.4-19.6 70.1 21.3 142.8 91.4 162.3 70.1 19.6 142.8-21.3 162.3-91.4 19.5-70-21.4-142.6-91.4-162.3z m0 0" fill=""></path><path d="M580.1 513.2a50.39 50.39 0 0 1-27 97.1 50.44 50.44 0 0 1-35.2-61.9 50.5 50.5 0 0 1 62.2-35.2" fill="#514DDF"></path><path d="M568.1 635.9c-28.9 0-55.7-15.6-70-41.4a79.69 79.69 0 0 1 7.6-88.8c20.4-25.4 53.8-36 85-26.8 42 12.3 66.5 56.6 54.6 98.7-8.9 31.4-35.5 54-67.9 57.8-3.1 0.3-6.2 0.5-9.3 0.5z m0-136c-16.7 0-32.7 7.5-43.5 21a55.6 55.6 0 0 0-5.3 61.9c11 19.9 32.7 31.1 55.3 28.5a55.45 55.45 0 0 0 47.3-40.3c8.3-29.4-8.8-60.2-38-68.8-5.2-1.6-10.5-2.3-15.8-2.3zM441.2 310.6L391 296.5c-6.9-1.9-11-9.1-9-16.1 1.9-6.9 9.1-11 16.1-9l50.2 14.1c6.9 1.9 11 9.1 9 16.1-1.9 6.9-9.1 10.9-16.1 9z m0 0M413.5 409.8l-50.2-14.1c-6.9-1.9-11-9.1-9-16.1 1.9-6.9 9.1-11 16.1-9.1l50.2 14.1c6.9 1.9 11 9.1 9 16.1-2 7-9.2 11.1-16.1 9.1z m0 0" fill=""></path></g></svg>
+          <h3 class="text-lg font-bold pt-4">Instant Settlements</h3>
+          <p class="py-3 text-gray-500 leading-normal">Settle your customers payments within 10seconds as soon your account is activated, even during holidays</p>
+          <div class="flex items-center cursor-pointer place-items-end duration-1000 hover:text-red-500">
+            <a href="#" class="font-mullish font-bold text-lightBlue500 transition-all duration-100">Know More</a>
+            <svg xmlns="http://www.w3.org/2000/svg" class="" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right w-5 h-5 text-lightBlue500 transition-all duration-500"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </div>  
+        </div>
+
+
+
+        <div class="p-10 bg-[url('https://razorpay.com/build/browser/static/instant-settlements-bg.b4569475.svg')] w-full max-h-[300px] cursor-pointer bg-no-repeat hover:scale-105 transition-all duration-200 hover:bg-[url('idk1.svg')]">
+          <svg width="50px" height="50px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="34.816"><path d="M732.1 399.3C534.6 356 696.5 82.1 425.9 104.8s-527.2 645.8-46.8 791.7 728-415 353-497.2z" fill="#464BD8"></path><path d="M695.5 779.5c-5.7 0-11.3-0.8-16.9-2.3l-402-112.4c-16.1-4.5-29.4-15-37.6-29.5a62 62 0 0 1-5.7-47.5l65-232.6a62.64 62.64 0 0 1 60.1-45.4c5.7 0 11.3 0.8 16.9 2.3L508 349.2c0.3 0.1 0.6 0.1 1 0.1 1.2 0 2.3-0.6 2.9-1.6l21.3-31.5c7.5-11.1 20-17.7 33.4-17.7 3.7 0 7.4 0.5 11 1.5L695 332.9a40.03 40.03 0 0 1 29.5 36.8l1.9 37.6c0.1 1.6 1.1 2.9 2.6 3.3l48.2 13.5c16.1 4.5 29.4 15 37.6 29.5a62 62 0 0 1 5.7 47.5l-65 232.6c-7.4 27-32.1 45.8-60 45.8z" fill="#FFFFFF"></path><path d="M566.5 306c3 0 6 0.4 9 1.3L693 340.1a32.87 32.87 0 0 1 24.1 30l1.9 37.7a11 11 0 0 0 8 10.1l48.2 13.5a55.03 55.03 0 0 1 38.2 67.8l-65.1 232.6a55.06 55.06 0 0 1-53 40.2c-4.9 0-9.9-0.7-14.9-2l-402-112.4a55.03 55.03 0 0 1-38.2-67.8l65.1-232.6c6.9-24.2 28.9-40 52.9-40 4.9 0 9.9 0.7 14.9 2l132.7 37.1c1 0.3 2 0.4 3 0.4 3.6 0 7.1-1.8 9.1-4.9l21.3-31.4c6.3-9.2 16.5-14.4 27.3-14.4m0-14.9c-15.9 0-30.6 7.8-39.5 21l-19.7 29.2L377.4 305c-6.2-1.7-12.5-2.6-18.9-2.6a70.4 70.4 0 0 0-41.8 13.9c-12.4 9.2-21.2 22-25.5 36.9v0.1l-65.1 232.6c-10.4 37.1 11.4 75.8 48.5 86.2l402 112.4c6.2 1.7 12.5 2.6 18.9 2.6 31.2 0 58.9-21 67.3-51.1l65-232.6c5-18 2.8-36.9-6.4-53.1-9.2-16.3-24.1-28-42.1-33l-45.5-12.7-1.8-34.9a47.6 47.6 0 0 0-35-43.6l-117.5-32.9a39.3 39.3 0 0 0-13-2.1z" fill="#151B28"></path><path d="M686 365.2c2.9 0.8 4.9 3.3 5 6.3l1.9 37.6c0.4 16.2 11.3 30.2 26.9 34.6l48.2 13.5a28.98 28.98 0 0 1 20.1 35.7l-65 232.6c-4.6 15-20.4 23.6-35.5 19.3l-402-112.4a28.98 28.98 0 0 1-20.1-35.7l65.1-232.6a28.87 28.87 0 0 1 35.6-19.8l132.7 37.1c15.6 4.3 32.2-2 40.9-15.6l21-30.7c1.6-2.5 4.7-3.6 7.5-2.8L686 365.2" fill="#2AEFC8"></path><path d="M597.6 454.5c56.2 15.7 89 74 73.3 130.2-15.7 56.2-74 89-130.2 73.3-56.2-15.7-89-74-73.3-130.2 15.9-56.1 74-88.8 130.2-73.3m7-25.1c-70.1-19.6-142.8 21.3-162.3 91.4-19.6 70.1 21.3 142.8 91.4 162.3 70.1 19.6 142.8-21.3 162.3-91.4 19.5-70-21.4-142.6-91.4-162.3z m0 0" fill=""></path><path d="M580.1 513.2a50.39 50.39 0 0 1-27 97.1 50.44 50.44 0 0 1-35.2-61.9 50.5 50.5 0 0 1 62.2-35.2" fill="#514DDF"></path><path d="M568.1 635.9c-28.9 0-55.7-15.6-70-41.4a79.69 79.69 0 0 1 7.6-88.8c20.4-25.4 53.8-36 85-26.8 42 12.3 66.5 56.6 54.6 98.7-8.9 31.4-35.5 54-67.9 57.8-3.1 0.3-6.2 0.5-9.3 0.5z m0-136c-16.7 0-32.7 7.5-43.5 21a55.6 55.6 0 0 0-5.3 61.9c11 19.9 32.7 31.1 55.3 28.5a55.45 55.45 0 0 0 47.3-40.3c8.3-29.4-8.8-60.2-38-68.8-5.2-1.6-10.5-2.3-15.8-2.3zM441.2 310.6L391 296.5c-6.9-1.9-11-9.1-9-16.1 1.9-6.9 9.1-11 16.1-9l50.2 14.1c6.9 1.9 11 9.1 9 16.1-1.9 6.9-9.1 10.9-16.1 9z m0 0M413.5 409.8l-50.2-14.1c-6.9-1.9-11-9.1-9-16.1 1.9-6.9 9.1-11 16.1-9.1l50.2 14.1c6.9 1.9 11 9.1 9 16.1-2 7-9.2 11.1-16.1 9.1z m0 0" fill=""></path></g><g id="SVGRepo_iconCarrier"><path d="M732.1 399.3C534.6 356 696.5 82.1 425.9 104.8s-527.2 645.8-46.8 791.7 728-415 353-497.2z" fill="#464BD8"></path><path d="M695.5 779.5c-5.7 0-11.3-0.8-16.9-2.3l-402-112.4c-16.1-4.5-29.4-15-37.6-29.5a62 62 0 0 1-5.7-47.5l65-232.6a62.64 62.64 0 0 1 60.1-45.4c5.7 0 11.3 0.8 16.9 2.3L508 349.2c0.3 0.1 0.6 0.1 1 0.1 1.2 0 2.3-0.6 2.9-1.6l21.3-31.5c7.5-11.1 20-17.7 33.4-17.7 3.7 0 7.4 0.5 11 1.5L695 332.9a40.03 40.03 0 0 1 29.5 36.8l1.9 37.6c0.1 1.6 1.1 2.9 2.6 3.3l48.2 13.5c16.1 4.5 29.4 15 37.6 29.5a62 62 0 0 1 5.7 47.5l-65 232.6c-7.4 27-32.1 45.8-60 45.8z" fill="#FFFFFF"></path><path d="M566.5 306c3 0 6 0.4 9 1.3L693 340.1a32.87 32.87 0 0 1 24.1 30l1.9 37.7a11 11 0 0 0 8 10.1l48.2 13.5a55.03 55.03 0 0 1 38.2 67.8l-65.1 232.6a55.06 55.06 0 0 1-53 40.2c-4.9 0-9.9-0.7-14.9-2l-402-112.4a55.03 55.03 0 0 1-38.2-67.8l65.1-232.6c6.9-24.2 28.9-40 52.9-40 4.9 0 9.9 0.7 14.9 2l132.7 37.1c1 0.3 2 0.4 3 0.4 3.6 0 7.1-1.8 9.1-4.9l21.3-31.4c6.3-9.2 16.5-14.4 27.3-14.4m0-14.9c-15.9 0-30.6 7.8-39.5 21l-19.7 29.2L377.4 305c-6.2-1.7-12.5-2.6-18.9-2.6a70.4 70.4 0 0 0-41.8 13.9c-12.4 9.2-21.2 22-25.5 36.9v0.1l-65.1 232.6c-10.4 37.1 11.4 75.8 48.5 86.2l402 112.4c6.2 1.7 12.5 2.6 18.9 2.6 31.2 0 58.9-21 67.3-51.1l65-232.6c5-18 2.8-36.9-6.4-53.1-9.2-16.3-24.1-28-42.1-33l-45.5-12.7-1.8-34.9a47.6 47.6 0 0 0-35-43.6l-117.5-32.9a39.3 39.3 0 0 0-13-2.1z" fill="#151B28"></path><path d="M686 365.2c2.9 0.8 4.9 3.3 5 6.3l1.9 37.6c0.4 16.2 11.3 30.2 26.9 34.6l48.2 13.5a28.98 28.98 0 0 1 20.1 35.7l-65 232.6c-4.6 15-20.4 23.6-35.5 19.3l-402-112.4a28.98 28.98 0 0 1-20.1-35.7l65.1-232.6a28.87 28.87 0 0 1 35.6-19.8l132.7 37.1c15.6 4.3 32.2-2 40.9-15.6l21-30.7c1.6-2.5 4.7-3.6 7.5-2.8L686 365.2" fill="#2AEFC8"></path><path d="M597.6 454.5c56.2 15.7 89 74 73.3 130.2-15.7 56.2-74 89-130.2 73.3-56.2-15.7-89-74-73.3-130.2 15.9-56.1 74-88.8 130.2-73.3m7-25.1c-70.1-19.6-142.8 21.3-162.3 91.4-19.6 70.1 21.3 142.8 91.4 162.3 70.1 19.6 142.8-21.3 162.3-91.4 19.5-70-21.4-142.6-91.4-162.3z m0 0" fill=""></path><path d="M580.1 513.2a50.39 50.39 0 0 1-27 97.1 50.44 50.44 0 0 1-35.2-61.9 50.5 50.5 0 0 1 62.2-35.2" fill="#514DDF"></path><path d="M568.1 635.9c-28.9 0-55.7-15.6-70-41.4a79.69 79.69 0 0 1 7.6-88.8c20.4-25.4 53.8-36 85-26.8 42 12.3 66.5 56.6 54.6 98.7-8.9 31.4-35.5 54-67.9 57.8-3.1 0.3-6.2 0.5-9.3 0.5z m0-136c-16.7 0-32.7 7.5-43.5 21a55.6 55.6 0 0 0-5.3 61.9c11 19.9 32.7 31.1 55.3 28.5a55.45 55.45 0 0 0 47.3-40.3c8.3-29.4-8.8-60.2-38-68.8-5.2-1.6-10.5-2.3-15.8-2.3zM441.2 310.6L391 296.5c-6.9-1.9-11-9.1-9-16.1 1.9-6.9 9.1-11 16.1-9l50.2 14.1c6.9 1.9 11 9.1 9 16.1-1.9 6.9-9.1 10.9-16.1 9z m0 0M413.5 409.8l-50.2-14.1c-6.9-1.9-11-9.1-9-16.1 1.9-6.9 9.1-11 16.1-9.1l50.2 14.1c6.9 1.9 11 9.1 9 16.1-2 7-9.2 11.1-16.1 9.1z m0 0" fill=""></path></g></svg>
+          <h3 class="text-lg font-bold pt-4">Instant Settlements</h3>
+          <p class="py-3 text-gray-500 leading-normal">Settle your customers payments within 10seconds as soon your account is activated, even during holidays</p>
+          <div class="flex items-center cursor-pointer place-items-end duration-1000 hover:text-red-500">
+            <a href="#" class="font-mullish font-bold text-lightBlue500 transition-all duration-100">Know More</a>
+            <svg xmlns="http://www.w3.org/2000/svg" class="" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right w-5 h-5 text-lightBlue500 transition-all duration-500"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </div>  
+        </div>
+
+
+
+        <div class="p-10 bg-[url('https://razorpay.com/build/browser/static/instant-settlements-bg.b4569475.svg')] w-full max-h-[300px] cursor-pointer bg-no-repeat hover:scale-105 transition-all duration-200 hover:bg-[url('idk1.svg')]">
+          <svg width="50px" height="50px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="34.816"><path d="M732.1 399.3C534.6 356 696.5 82.1 425.9 104.8s-527.2 645.8-46.8 791.7 728-415 353-497.2z" fill="#464BD8"></path><path d="M695.5 779.5c-5.7 0-11.3-0.8-16.9-2.3l-402-112.4c-16.1-4.5-29.4-15-37.6-29.5a62 62 0 0 1-5.7-47.5l65-232.6a62.64 62.64 0 0 1 60.1-45.4c5.7 0 11.3 0.8 16.9 2.3L508 349.2c0.3 0.1 0.6 0.1 1 0.1 1.2 0 2.3-0.6 2.9-1.6l21.3-31.5c7.5-11.1 20-17.7 33.4-17.7 3.7 0 7.4 0.5 11 1.5L695 332.9a40.03 40.03 0 0 1 29.5 36.8l1.9 37.6c0.1 1.6 1.1 2.9 2.6 3.3l48.2 13.5c16.1 4.5 29.4 15 37.6 29.5a62 62 0 0 1 5.7 47.5l-65 232.6c-7.4 27-32.1 45.8-60 45.8z" fill="#FFFFFF"></path><path d="M566.5 306c3 0 6 0.4 9 1.3L693 340.1a32.87 32.87 0 0 1 24.1 30l1.9 37.7a11 11 0 0 0 8 10.1l48.2 13.5a55.03 55.03 0 0 1 38.2 67.8l-65.1 232.6a55.06 55.06 0 0 1-53 40.2c-4.9 0-9.9-0.7-14.9-2l-402-112.4a55.03 55.03 0 0 1-38.2-67.8l65.1-232.6c6.9-24.2 28.9-40 52.9-40 4.9 0 9.9 0.7 14.9 2l132.7 37.1c1 0.3 2 0.4 3 0.4 3.6 0 7.1-1.8 9.1-4.9l21.3-31.4c6.3-9.2 16.5-14.4 27.3-14.4m0-14.9c-15.9 0-30.6 7.8-39.5 21l-19.7 29.2L377.4 305c-6.2-1.7-12.5-2.6-18.9-2.6a70.4 70.4 0 0 0-41.8 13.9c-12.4 9.2-21.2 22-25.5 36.9v0.1l-65.1 232.6c-10.4 37.1 11.4 75.8 48.5 86.2l402 112.4c6.2 1.7 12.5 2.6 18.9 2.6 31.2 0 58.9-21 67.3-51.1l65-232.6c5-18 2.8-36.9-6.4-53.1-9.2-16.3-24.1-28-42.1-33l-45.5-12.7-1.8-34.9a47.6 47.6 0 0 0-35-43.6l-117.5-32.9a39.3 39.3 0 0 0-13-2.1z" fill="#151B28"></path><path d="M686 365.2c2.9 0.8 4.9 3.3 5 6.3l1.9 37.6c0.4 16.2 11.3 30.2 26.9 34.6l48.2 13.5a28.98 28.98 0 0 1 20.1 35.7l-65 232.6c-4.6 15-20.4 23.6-35.5 19.3l-402-112.4a28.98 28.98 0 0 1-20.1-35.7l65.1-232.6a28.87 28.87 0 0 1 35.6-19.8l132.7 37.1c15.6 4.3 32.2-2 40.9-15.6l21-30.7c1.6-2.5 4.7-3.6 7.5-2.8L686 365.2" fill="#2AEFC8"></path><path d="M597.6 454.5c56.2 15.7 89 74 73.3 130.2-15.7 56.2-74 89-130.2 73.3-56.2-15.7-89-74-73.3-130.2 15.9-56.1 74-88.8 130.2-73.3m7-25.1c-70.1-19.6-142.8 21.3-162.3 91.4-19.6 70.1 21.3 142.8 91.4 162.3 70.1 19.6 142.8-21.3 162.3-91.4 19.5-70-21.4-142.6-91.4-162.3z m0 0" fill=""></path><path d="M580.1 513.2a50.39 50.39 0 0 1-27 97.1 50.44 50.44 0 0 1-35.2-61.9 50.5 50.5 0 0 1 62.2-35.2" fill="#514DDF"></path><path d="M568.1 635.9c-28.9 0-55.7-15.6-70-41.4a79.69 79.69 0 0 1 7.6-88.8c20.4-25.4 53.8-36 85-26.8 42 12.3 66.5 56.6 54.6 98.7-8.9 31.4-35.5 54-67.9 57.8-3.1 0.3-6.2 0.5-9.3 0.5z m0-136c-16.7 0-32.7 7.5-43.5 21a55.6 55.6 0 0 0-5.3 61.9c11 19.9 32.7 31.1 55.3 28.5a55.45 55.45 0 0 0 47.3-40.3c8.3-29.4-8.8-60.2-38-68.8-5.2-1.6-10.5-2.3-15.8-2.3zM441.2 310.6L391 296.5c-6.9-1.9-11-9.1-9-16.1 1.9-6.9 9.1-11 16.1-9l50.2 14.1c6.9 1.9 11 9.1 9 16.1-1.9 6.9-9.1 10.9-16.1 9z m0 0M413.5 409.8l-50.2-14.1c-6.9-1.9-11-9.1-9-16.1 1.9-6.9 9.1-11 16.1-9.1l50.2 14.1c6.9 1.9 11 9.1 9 16.1-2 7-9.2 11.1-16.1 9.1z m0 0" fill=""></path></g><g id="SVGRepo_iconCarrier"><path d="M732.1 399.3C534.6 356 696.5 82.1 425.9 104.8s-527.2 645.8-46.8 791.7 728-415 353-497.2z" fill="#464BD8"></path><path d="M695.5 779.5c-5.7 0-11.3-0.8-16.9-2.3l-402-112.4c-16.1-4.5-29.4-15-37.6-29.5a62 62 0 0 1-5.7-47.5l65-232.6a62.64 62.64 0 0 1 60.1-45.4c5.7 0 11.3 0.8 16.9 2.3L508 349.2c0.3 0.1 0.6 0.1 1 0.1 1.2 0 2.3-0.6 2.9-1.6l21.3-31.5c7.5-11.1 20-17.7 33.4-17.7 3.7 0 7.4 0.5 11 1.5L695 332.9a40.03 40.03 0 0 1 29.5 36.8l1.9 37.6c0.1 1.6 1.1 2.9 2.6 3.3l48.2 13.5c16.1 4.5 29.4 15 37.6 29.5a62 62 0 0 1 5.7 47.5l-65 232.6c-7.4 27-32.1 45.8-60 45.8z" fill="#FFFFFF"></path><path d="M566.5 306c3 0 6 0.4 9 1.3L693 340.1a32.87 32.87 0 0 1 24.1 30l1.9 37.7a11 11 0 0 0 8 10.1l48.2 13.5a55.03 55.03 0 0 1 38.2 67.8l-65.1 232.6a55.06 55.06 0 0 1-53 40.2c-4.9 0-9.9-0.7-14.9-2l-402-112.4a55.03 55.03 0 0 1-38.2-67.8l65.1-232.6c6.9-24.2 28.9-40 52.9-40 4.9 0 9.9 0.7 14.9 2l132.7 37.1c1 0.3 2 0.4 3 0.4 3.6 0 7.1-1.8 9.1-4.9l21.3-31.4c6.3-9.2 16.5-14.4 27.3-14.4m0-14.9c-15.9 0-30.6 7.8-39.5 21l-19.7 29.2L377.4 305c-6.2-1.7-12.5-2.6-18.9-2.6a70.4 70.4 0 0 0-41.8 13.9c-12.4 9.2-21.2 22-25.5 36.9v0.1l-65.1 232.6c-10.4 37.1 11.4 75.8 48.5 86.2l402 112.4c6.2 1.7 12.5 2.6 18.9 2.6 31.2 0 58.9-21 67.3-51.1l65-232.6c5-18 2.8-36.9-6.4-53.1-9.2-16.3-24.1-28-42.1-33l-45.5-12.7-1.8-34.9a47.6 47.6 0 0 0-35-43.6l-117.5-32.9a39.3 39.3 0 0 0-13-2.1z" fill="#151B28"></path><path d="M686 365.2c2.9 0.8 4.9 3.3 5 6.3l1.9 37.6c0.4 16.2 11.3 30.2 26.9 34.6l48.2 13.5a28.98 28.98 0 0 1 20.1 35.7l-65 232.6c-4.6 15-20.4 23.6-35.5 19.3l-402-112.4a28.98 28.98 0 0 1-20.1-35.7l65.1-232.6a28.87 28.87 0 0 1 35.6-19.8l132.7 37.1c15.6 4.3 32.2-2 40.9-15.6l21-30.7c1.6-2.5 4.7-3.6 7.5-2.8L686 365.2" fill="#2AEFC8"></path><path d="M597.6 454.5c56.2 15.7 89 74 73.3 130.2-15.7 56.2-74 89-130.2 73.3-56.2-15.7-89-74-73.3-130.2 15.9-56.1 74-88.8 130.2-73.3m7-25.1c-70.1-19.6-142.8 21.3-162.3 91.4-19.6 70.1 21.3 142.8 91.4 162.3 70.1 19.6 142.8-21.3 162.3-91.4 19.5-70-21.4-142.6-91.4-162.3z m0 0" fill=""></path><path d="M580.1 513.2a50.39 50.39 0 0 1-27 97.1 50.44 50.44 0 0 1-35.2-61.9 50.5 50.5 0 0 1 62.2-35.2" fill="#514DDF"></path><path d="M568.1 635.9c-28.9 0-55.7-15.6-70-41.4a79.69 79.69 0 0 1 7.6-88.8c20.4-25.4 53.8-36 85-26.8 42 12.3 66.5 56.6 54.6 98.7-8.9 31.4-35.5 54-67.9 57.8-3.1 0.3-6.2 0.5-9.3 0.5z m0-136c-16.7 0-32.7 7.5-43.5 21a55.6 55.6 0 0 0-5.3 61.9c11 19.9 32.7 31.1 55.3 28.5a55.45 55.45 0 0 0 47.3-40.3c8.3-29.4-8.8-60.2-38-68.8-5.2-1.6-10.5-2.3-15.8-2.3zM441.2 310.6L391 296.5c-6.9-1.9-11-9.1-9-16.1 1.9-6.9 9.1-11 16.1-9l50.2 14.1c6.9 1.9 11 9.1 9 16.1-1.9 6.9-9.1 10.9-16.1 9z m0 0M413.5 409.8l-50.2-14.1c-6.9-1.9-11-9.1-9-16.1 1.9-6.9 9.1-11 16.1-9.1l50.2 14.1c6.9 1.9 11 9.1 9 16.1-2 7-9.2 11.1-16.1 9.1z m0 0" fill=""></path></g></svg>
+          <h3 class="text-lg font-bold pt-4">Instant Settlements</h3>
+          <p class="py-3 text-gray-500 leading-normal">Settle your customers payments within 10seconds as soon your account is activated, even during holidays</p>
+          <div class="flex items-center cursor-pointer place-items-end duration-1000 hover:text-red-500">
+            <a href="#" class="font-mullish font-bold text-lightBlue500 transition-all duration-100">Know More</a>
+            <svg xmlns="http://www.w3.org/2000/svg" class="" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right w-5 h-5 text-lightBlue500 transition-all duration-500"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </div>  
+        </div>
+
+
+
+        <div class="p-10 bg-[url('https://razorpay.com/build/browser/static/instant-settlements-bg.b4569475.svg')] w-full max-h-[300px] cursor-pointer bg-no-repeat hover:scale-105 transition-all duration-200 hover:bg-[url('idk1.svg')]">
+          <svg width="50px" height="50px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="34.816"><path d="M732.1 399.3C534.6 356 696.5 82.1 425.9 104.8s-527.2 645.8-46.8 791.7 728-415 353-497.2z" fill="#464BD8"></path><path d="M695.5 779.5c-5.7 0-11.3-0.8-16.9-2.3l-402-112.4c-16.1-4.5-29.4-15-37.6-29.5a62 62 0 0 1-5.7-47.5l65-232.6a62.64 62.64 0 0 1 60.1-45.4c5.7 0 11.3 0.8 16.9 2.3L508 349.2c0.3 0.1 0.6 0.1 1 0.1 1.2 0 2.3-0.6 2.9-1.6l21.3-31.5c7.5-11.1 20-17.7 33.4-17.7 3.7 0 7.4 0.5 11 1.5L695 332.9a40.03 40.03 0 0 1 29.5 36.8l1.9 37.6c0.1 1.6 1.1 2.9 2.6 3.3l48.2 13.5c16.1 4.5 29.4 15 37.6 29.5a62 62 0 0 1 5.7 47.5l-65 232.6c-7.4 27-32.1 45.8-60 45.8z" fill="#FFFFFF"></path><path d="M566.5 306c3 0 6 0.4 9 1.3L693 340.1a32.87 32.87 0 0 1 24.1 30l1.9 37.7a11 11 0 0 0 8 10.1l48.2 13.5a55.03 55.03 0 0 1 38.2 67.8l-65.1 232.6a55.06 55.06 0 0 1-53 40.2c-4.9 0-9.9-0.7-14.9-2l-402-112.4a55.03 55.03 0 0 1-38.2-67.8l65.1-232.6c6.9-24.2 28.9-40 52.9-40 4.9 0 9.9 0.7 14.9 2l132.7 37.1c1 0.3 2 0.4 3 0.4 3.6 0 7.1-1.8 9.1-4.9l21.3-31.4c6.3-9.2 16.5-14.4 27.3-14.4m0-14.9c-15.9 0-30.6 7.8-39.5 21l-19.7 29.2L377.4 305c-6.2-1.7-12.5-2.6-18.9-2.6a70.4 70.4 0 0 0-41.8 13.9c-12.4 9.2-21.2 22-25.5 36.9v0.1l-65.1 232.6c-10.4 37.1 11.4 75.8 48.5 86.2l402 112.4c6.2 1.7 12.5 2.6 18.9 2.6 31.2 0 58.9-21 67.3-51.1l65-232.6c5-18 2.8-36.9-6.4-53.1-9.2-16.3-24.1-28-42.1-33l-45.5-12.7-1.8-34.9a47.6 47.6 0 0 0-35-43.6l-117.5-32.9a39.3 39.3 0 0 0-13-2.1z" fill="#151B28"></path><path d="M686 365.2c2.9 0.8 4.9 3.3 5 6.3l1.9 37.6c0.4 16.2 11.3 30.2 26.9 34.6l48.2 13.5a28.98 28.98 0 0 1 20.1 35.7l-65 232.6c-4.6 15-20.4 23.6-35.5 19.3l-402-112.4a28.98 28.98 0 0 1-20.1-35.7l65.1-232.6a28.87 28.87 0 0 1 35.6-19.8l132.7 37.1c15.6 4.3 32.2-2 40.9-15.6l21-30.7c1.6-2.5 4.7-3.6 7.5-2.8L686 365.2" fill="#2AEFC8"></path><path d="M597.6 454.5c56.2 15.7 89 74 73.3 130.2-15.7 56.2-74 89-130.2 73.3-56.2-15.7-89-74-73.3-130.2 15.9-56.1 74-88.8 130.2-73.3m7-25.1c-70.1-19.6-142.8 21.3-162.3 91.4-19.6 70.1 21.3 142.8 91.4 162.3 70.1 19.6 142.8-21.3 162.3-91.4 19.5-70-21.4-142.6-91.4-162.3z m0 0" fill=""></path><path d="M580.1 513.2a50.39 50.39 0 0 1-27 97.1 50.44 50.44 0 0 1-35.2-61.9 50.5 50.5 0 0 1 62.2-35.2" fill="#514DDF"></path><path d="M568.1 635.9c-28.9 0-55.7-15.6-70-41.4a79.69 79.69 0 0 1 7.6-88.8c20.4-25.4 53.8-36 85-26.8 42 12.3 66.5 56.6 54.6 98.7-8.9 31.4-35.5 54-67.9 57.8-3.1 0.3-6.2 0.5-9.3 0.5z m0-136c-16.7 0-32.7 7.5-43.5 21a55.6 55.6 0 0 0-5.3 61.9c11 19.9 32.7 31.1 55.3 28.5a55.45 55.45 0 0 0 47.3-40.3c8.3-29.4-8.8-60.2-38-68.8-5.2-1.6-10.5-2.3-15.8-2.3zM441.2 310.6L391 296.5c-6.9-1.9-11-9.1-9-16.1 1.9-6.9 9.1-11 16.1-9l50.2 14.1c6.9 1.9 11 9.1 9 16.1-1.9 6.9-9.1 10.9-16.1 9z m0 0M413.5 409.8l-50.2-14.1c-6.9-1.9-11-9.1-9-16.1 1.9-6.9 9.1-11 16.1-9.1l50.2 14.1c6.9 1.9 11 9.1 9 16.1-2 7-9.2 11.1-16.1 9.1z m0 0" fill=""></path></g><g id="SVGRepo_iconCarrier"><path d="M732.1 399.3C534.6 356 696.5 82.1 425.9 104.8s-527.2 645.8-46.8 791.7 728-415 353-497.2z" fill="#464BD8"></path><path d="M695.5 779.5c-5.7 0-11.3-0.8-16.9-2.3l-402-112.4c-16.1-4.5-29.4-15-37.6-29.5a62 62 0 0 1-5.7-47.5l65-232.6a62.64 62.64 0 0 1 60.1-45.4c5.7 0 11.3 0.8 16.9 2.3L508 349.2c0.3 0.1 0.6 0.1 1 0.1 1.2 0 2.3-0.6 2.9-1.6l21.3-31.5c7.5-11.1 20-17.7 33.4-17.7 3.7 0 7.4 0.5 11 1.5L695 332.9a40.03 40.03 0 0 1 29.5 36.8l1.9 37.6c0.1 1.6 1.1 2.9 2.6 3.3l48.2 13.5c16.1 4.5 29.4 15 37.6 29.5a62 62 0 0 1 5.7 47.5l-65 232.6c-7.4 27-32.1 45.8-60 45.8z" fill="#FFFFFF"></path><path d="M566.5 306c3 0 6 0.4 9 1.3L693 340.1a32.87 32.87 0 0 1 24.1 30l1.9 37.7a11 11 0 0 0 8 10.1l48.2 13.5a55.03 55.03 0 0 1 38.2 67.8l-65.1 232.6a55.06 55.06 0 0 1-53 40.2c-4.9 0-9.9-0.7-14.9-2l-402-112.4a55.03 55.03 0 0 1-38.2-67.8l65.1-232.6c6.9-24.2 28.9-40 52.9-40 4.9 0 9.9 0.7 14.9 2l132.7 37.1c1 0.3 2 0.4 3 0.4 3.6 0 7.1-1.8 9.1-4.9l21.3-31.4c6.3-9.2 16.5-14.4 27.3-14.4m0-14.9c-15.9 0-30.6 7.8-39.5 21l-19.7 29.2L377.4 305c-6.2-1.7-12.5-2.6-18.9-2.6a70.4 70.4 0 0 0-41.8 13.9c-12.4 9.2-21.2 22-25.5 36.9v0.1l-65.1 232.6c-10.4 37.1 11.4 75.8 48.5 86.2l402 112.4c6.2 1.7 12.5 2.6 18.9 2.6 31.2 0 58.9-21 67.3-51.1l65-232.6c5-18 2.8-36.9-6.4-53.1-9.2-16.3-24.1-28-42.1-33l-45.5-12.7-1.8-34.9a47.6 47.6 0 0 0-35-43.6l-117.5-32.9a39.3 39.3 0 0 0-13-2.1z" fill="#151B28"></path><path d="M686 365.2c2.9 0.8 4.9 3.3 5 6.3l1.9 37.6c0.4 16.2 11.3 30.2 26.9 34.6l48.2 13.5a28.98 28.98 0 0 1 20.1 35.7l-65 232.6c-4.6 15-20.4 23.6-35.5 19.3l-402-112.4a28.98 28.98 0 0 1-20.1-35.7l65.1-232.6a28.87 28.87 0 0 1 35.6-19.8l132.7 37.1c15.6 4.3 32.2-2 40.9-15.6l21-30.7c1.6-2.5 4.7-3.6 7.5-2.8L686 365.2" fill="#2AEFC8"></path><path d="M597.6 454.5c56.2 15.7 89 74 73.3 130.2-15.7 56.2-74 89-130.2 73.3-56.2-15.7-89-74-73.3-130.2 15.9-56.1 74-88.8 130.2-73.3m7-25.1c-70.1-19.6-142.8 21.3-162.3 91.4-19.6 70.1 21.3 142.8 91.4 162.3 70.1 19.6 142.8-21.3 162.3-91.4 19.5-70-21.4-142.6-91.4-162.3z m0 0" fill=""></path><path d="M580.1 513.2a50.39 50.39 0 0 1-27 97.1 50.44 50.44 0 0 1-35.2-61.9 50.5 50.5 0 0 1 62.2-35.2" fill="#514DDF"></path><path d="M568.1 635.9c-28.9 0-55.7-15.6-70-41.4a79.69 79.69 0 0 1 7.6-88.8c20.4-25.4 53.8-36 85-26.8 42 12.3 66.5 56.6 54.6 98.7-8.9 31.4-35.5 54-67.9 57.8-3.1 0.3-6.2 0.5-9.3 0.5z m0-136c-16.7 0-32.7 7.5-43.5 21a55.6 55.6 0 0 0-5.3 61.9c11 19.9 32.7 31.1 55.3 28.5a55.45 55.45 0 0 0 47.3-40.3c8.3-29.4-8.8-60.2-38-68.8-5.2-1.6-10.5-2.3-15.8-2.3zM441.2 310.6L391 296.5c-6.9-1.9-11-9.1-9-16.1 1.9-6.9 9.1-11 16.1-9l50.2 14.1c6.9 1.9 11 9.1 9 16.1-1.9 6.9-9.1 10.9-16.1 9z m0 0M413.5 409.8l-50.2-14.1c-6.9-1.9-11-9.1-9-16.1 1.9-6.9 9.1-11 16.1-9.1l50.2 14.1c6.9 1.9 11 9.1 9 16.1-2 7-9.2 11.1-16.1 9.1z m0 0" fill=""></path></g></svg>
+          <h3 class="text-lg font-bold pt-4">Instant Settlements</h3>
+          <p class="py-3 text-gray-500 leading-normal">Settle your customers payments within 10seconds as soon your account is activated, even during holidays</p>
+          <div class="flex items-center cursor-pointer place-items-end duration-1000 hover:text-red-500">
+            <a href="#" class="font-mullish font-bold text-lightBlue500 transition-all duration-100">Know More</a>
+            <svg xmlns="http://www.w3.org/2000/svg" class="" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right w-5 h-5 text-lightBlue500 transition-all duration-500"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </div>  
+        </div>
+
+
+        
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-[url('https://razorpay.com/build/browser/static/features-bg.61935438.svg')] relative h-[1000px] w-[full] bg-cover bg-no-repeat bg-center pt-[4rem]">
+    <div class="max-w-[1080px] h-full pt-[15rem] mx-auto flex flex-col items-center">
+      <h1 class="font-extrabold text-white text-3xl mb-5">
+        Features
+      </h1>
+
+      <div class="h-1 w-6 bg-green-500 mb-3"></div>
+
+      <p class="text-white max-w-[450px] text-center mb-[1.5rem]">
+        Empower your business with all the right tools to accept online payments and provide the best customer experience
+      </p>
+
+      <div class="grid grid-cols-4 gap-y-8 gap-x-[1.5rem] px-[1.5rem]">
+        <!-- box1 -->
+        <div class="">
+          <img src="https://razorpay.com/build/browser/static/instant-activation.6f975aa6.svg" alt="" class="mb-4">
+          <h3 class="text-white font-bold text-xl mb-4">Instant Activation</h3>
+          <p class="text-white text-[1.1rem]">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
+        </div>
+        <!-- box2 -->
+        <div class="">
+          <img src="https://razorpay.com/build/browser/static/instant-activation.6f975aa6.svg" alt="" class="mb-4">
+          <h3 class="text-white font-bold text-xl mb-4">Instant Activation</h3>
+          <p class="text-white text-[1.1rem]">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
+        </div>
+        <!-- box3 -->
+        <div class="">
+          <img src="https://razorpay.com/build/browser/static/instant-activation.6f975aa6.svg" alt="" class="mb-4">
+          <h3 class="text-white font-bold text-xl mb-4">Instant Activation</h3>
+          <p class="text-white text-[1.1rem]">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
+        </div>
+        <!-- box4 -->
+        <div class="">
+          <img src="https://razorpay.com/build/browser/static/instant-activation.6f975aa6.svg" alt="" class="mb-4">
+          <h3 class="text-white font-bold text-xl mb-4">Instant Activation</h3>
+          <p class="text-white text-[1.1rem]">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
+        </div>
+        <!-- box5 -->
+        <div class="">
+          <img src="https://razorpay.com/build/browser/static/instant-activation.6f975aa6.svg" alt="" class="mb-4">
+          <h3 class="text-white font-bold text-xl mb-4">Instant Activation</h3>
+          <p class="text-white text-[1.1rem]">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
+        </div>
+        <!-- box6 -->
+        <div class="">
+          <img src="https://razorpay.com/build/browser/static/instant-activation.6f975aa6.svg" alt="" class="mb-4">
+          <h3 class="text-white font-bold text-xl mb-4">Instant Activation</h3>
+          <p class="text-white text-[1.1rem]">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
+        </div>
+        <!-- box7 -->
+        <div class="">
+          <img src="https://razorpay.com/build/browser/static/instant-activation.6f975aa6.svg" alt="" class="mb-4">
+          <h3 class="text-white font-bold text-xl mb-4">Instant Activation</h3>
+          <p class="text-white text-[1.1rem]">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
+        </div>
+        <!-- box8 -->
+        <div class="">
+          <img src="https://razorpay.com/build/browser/static/instant-activation.6f975aa6.svg" alt="" class="mb-4">
+          <h3 class="text-white font-bold text-xl mb-4">Instant Activation</h3>
+          <p class="text-white text-[1.1rem]">Get activated and transact within 2 minutes. Completely online onboarding with minimum documentation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="bg-[#f5f8fe] relative pt-40 pb-12 -z-10 -mt-[200px]">
+
+    <div class="w-11/12 max-w-[1080px] mx-auto relative flex">
+      <!-- left part -->
+      <div class="flex flex-col justify-center max-w-[55%]">
+        <h3 class="font-bold text-2xl text-blue-800">Join the 50,00,000 businesses using Razorpay</h3>
+        <div class="w-6 h-1 bg-green-400 mb-10 my-4"></div>
+        <p>We make it easier for you to focus on building great products while we work on simplifying your payments. Become one of us by joining thousands of our happy users and simplify the online payment experience for your customers.</p>
+        <p class="mt-6">Focus on your business while we handle the complexities of payments for you.</p>
+        <div></div>
+      </div>
+
+
+      <!-- Right part -->
+      <div class="h-[500px] w-[500px] relative overflow-y-hidden">
+        <div style="background: linear-gradient(180deg, #f4f8ff, #fff0)" class="absolute w-full h-[150px] top-0 z-50"></div>
+        <img src="https://razorpay.com/build/browser/static/merchants.204d7741.png" width="500px" alt="" loading="lazy" class="img1 absolute h-auto object-cover">
+        <div style="background: linear-gradient(180deg, #f4f8ff, #fff0)" class="absolute w-full h-[150px] -bottom-24"></div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="relative ">
+
+    <div class="w-11/12 max-w-[1300px] mx-auto relative py-20 ">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.XgF6I1596EerSgdmQKxAUAHaHa&pid=Api&rs=1&c=1&qlt=95&w=116&h=116" alt="" class="object-cover absolute w-[200px] top-[8rem] left-[2rem] -z-10" width="200px">
+      <h2 class="font-bold text-2xl text-blue-900 text-center">An Experience <br>
+        People Love to Talk About</h2>
+        <div class="w-6 h-1 bg-green-400 mx-auto"></div>
+    
+
+    <!-- left button -->
+    <button class="w-[100px] h-[100px] bg-[#949aa4] rounded-full absolute left-0 top-1/2 rotate-180 flex justify-center items-center hover:scale-75 transition-all duration-500">
+      <div class="flex justify-center items-center w-[65%] h-[65%] bg-[#949aa4] mix-blend-multiply rounded-full">
+        <img src="icons8-forward-50.png" alt="" width="30px" class="object-cover">
+      </div>
+    </button>
+
+    <!-- right button -->
+    <button class="w-[100px] h-[100px] bg-[#949aa4] rounded-full absolute right-0 top-1/2 flex justify-center items-center hover:scale-75 transition-all duration-500">
+      <div class="flex justify-center items-center w-[65%] h-[65%] bg-[#949aa4] mix-blend-multiply rounded-full">
+        <img src="icons8-forward-50.png" alt="" width="30px" class="object-cover">
+      </div>
+    </button>
+
+    <!-- main content -->
+    <div class="flex flex-row max-w-[980px] items-center mx-auto my-20 gap-x-[10rem] justify-center">
+      <!-- left image -->
+      <img src="https://media.razorpay.com/file/platform/acquisition/testimonial/saurav.png?w=xl&project=website-media" alt="" class="object-cover rounded-full" height="320px" width="320px">
+
+      <!-- right part -->
+      <div class="max-w-[400px]">
+        <img src="https://www.clipartkey.com/mpngs/m/91-919186_double-inverted-comma-png-clipart-png-download-double.png" alt="" class="object-cover -mb-2" width="35px" height="40px">
+        <p class="text-3xl font-light">Improved The Bottom Line With Cash-Like Collection</p>
+        <a href="#" class="text-gray-700 underline decoration-1">Learn More</a>
+        <h3 class="font-extrabold text-2xl">Saurav Goyal</h3>
+        <p class="font-medium ">Chief Finance Officer</p>
+        <img src="https://razorpay.com/build/browser/static/unacademy.1c618f03.svg" alt="" width="280px" height="80px">
+      </div>
+    </div>
+
+    <!-- 6 dot div -->
+    <div class="w-full flex flex-row mx-auto space-x-2 justify-center">
+        <div class="h-[10px] w-[10px] bg-gray-600 rounded-full"></div>
+        <div class="h-[10px] w-[10px] bg-gray-600 rounded-full"></div>
+        <div class="h-[10px] w-[10px] bg-gray-600 rounded-full"></div>
+        <div class="h-[10px] w-[10px] bg-gray-600 rounded-full"></div>
+        <div class="h-[10px] w-[10px] bg-gray-600 rounded-full"></div>
+        <div class="h-[10px] w-[10px] bg-gray-600 rounded-full"></div>
+        <div class="h-[10px] w-[10px] bg-gray-600 rounded-full"></div>
+      
+    </div>
+
+
+  </div>
+  </section>
+
+
+
+  <section class="bg-[url('https://razorpay.com/build/browser/static/footer-head-bg.990e26df.svg')]">
+    <div class="max-w-[1200px] mx-auto flex relative pt-[10rem] gap-x-20">
+      <!-- left part -->
+      <div class="max-w-[70%]">
+        <h2 class="font-extrabold text-white text-2xl mb-5">Supercharge your business with Razorpay</h2>
+        <div class="w-6 h-1 bg-green-400 mb-7"></div>
+        <p class="text-white font-semibold mb-7">Sign up now to experience the future of payments and offer <br> your customers the best checkout experience.</p>
+
+        <ul class="flex gap-x-10 flex-wrap text-white font-semibold mb-9">
+          <li>
+            <div class="tick-mark"></div>
+            <span>Quick onboarding</span>
+          </li>
+          <li>
+            <div class="tick-mark"></div>
+            <span>Access to entire product suite</span>
+          </li>
+          <li>
+            <div class="tick-mark"></div>
+            <span>API access</span>
+          </li>
+          <li>
+            <div class="tick-mark"></div>
+            <span>24x7 support</span>
+          </li>
+        </ul>
+        <button class="bg-white px-7 py-4 mb-24 flex space-x-2 items-center rounded-md hover:scale-95 transition-all duration-200">
+            <div class="font-semibold text-blue-400 hover:text-blue-900">Sign Up Now</div>
+            <svg class="w-5 hover:stroke-red" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="#33bbff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+          </button>
+        </div>
+      
+  
+      <!-- right part -->
+      <img src="https://razorpay.com/build/browser/static/footer-signup.6bf7413f.svg" alt="" width="240px" class="object-fill">
+  
+    </div>
+    </section>
+  
+    
+  
+    </div>
